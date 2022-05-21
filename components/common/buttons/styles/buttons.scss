@@ -1,0 +1,413 @@
+.c-submit-button {
+  min-width: 212px;
+  height: 40px;
+  margin: 0 auto;
+  border: none;
+  display: block;
+  background-color: $color-primary !important;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 3px;
+  &:disabled {
+    opacity: 0.3;
+  }
+}
+
+.c-button {
+  border: none;
+  display: block;
+  background-color: $color-primary !important;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 14px 20px;
+  line-height: 14px;
+
+  &--is-icon {
+    position: relative;
+    padding-left: 40px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      top: 0;
+      bottom: 0;
+      left: 5px;
+      margin: auto;
+    }
+  }
+
+  &--save {
+    @extend .c-button--is-icon;
+
+    &::before {
+      background: url($basePath + "/img/icons/search/save.svg");
+      background-size: cover;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &--password {
+    @extend .c-button--is-icon;
+
+    &::before {
+      background: url($basePath + "/img/icons/password.svg");
+      background-size: cover;
+    }
+  }
+}
+
+.c-cancel-button {
+  font-family: $font-museo-slab;
+  font-size: 12px;
+  font-weight: bold;
+  color: #597d99;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #597d99;
+    text-decoration: underline;
+  }
+}
+
+.c-option-button {
+  &__menu {
+    padding: 0px 0px !important;
+  }
+
+  &__option {
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(157, 167, 178, 0.1);
+    }
+
+    &--save {
+      padding-left: 45px !important;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        background: url($basePath + "/img/icons/save-blue.svg");
+        background-size: cover;
+        top: 0;
+        bottom: 0;
+        left: 5px;
+        margin: auto;
+      }
+    }
+
+    &--alert {
+      @extend .c-option-button__option--save;
+
+      &::before {
+        background: url($basePath + "/img/icons/alert-blue.svg");
+        background-size: cover;
+      }
+    }
+
+    &--tags {
+      @extend .c-option-button__option--save;
+
+      &::before {
+        background: url($basePath + "/img/icons/tags.svg");
+        background-size: cover;
+      }
+    }
+
+    &--export {
+      @extend .c-option-button__option--save;
+
+      &::before {
+        background: url($basePath + "/img/icons/export.svg");
+        background-size: cover;
+      }
+    }
+
+    &--password {
+      @extend .c-option-button__option--save;
+
+      &::before {
+        background: url($basePath + "/img/icons/password.svg");
+        background-size: cover;
+      }
+    }
+
+    &--download-icon {
+      @extend .c-option-button__option--save;
+
+      &::before {
+        background: url($basePath + "/img/icons/download-icon.svg");
+        background-size: cover;
+      }
+    }
+
+    &--info {
+      @extend .c-option-button__option--save;
+
+      &::before {
+        background: url($basePath + "/img/icons/info.svg");
+        background-size: cover;
+      }
+    }
+
+    &--camera {
+      @extend .c-option-button__option--save;
+
+      &::before {
+        background: url($basePath + "/img/icons/camera.svg");
+        background-size: cover;
+      }
+    }
+
+    &--disabled {
+      opacity: 0.2;
+    }
+  }
+}
+
+.c-add-button {
+  position: relative;
+
+  &__button {
+    width: 30px;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__tooltip {
+    position: absolute;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    display: none;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-95%, 0);
+    margin: auto;
+    width: 300px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    min-height: 78px;
+    z-index: 4;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.15);
+
+    &::after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      bottom: -5.5px;
+      right: calc(5% - 5px);
+      margin: auto;
+      background: white;
+      transform: rotate(45deg);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+      border-right: 1px solid rgba(0, 0, 0, 0.356);
+      border-radius: 1px;
+    }
+
+    &--active {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    &-close {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+    }
+
+    &--bottom {
+      bottom: -80px;
+
+      &::after {
+        position: absolute;
+        top: -82px;
+        transform: rotate(225deg);
+      }
+    }
+
+    &--bottom-center {
+      bottom: -80px;
+      transform: translate(-50%, 0);
+
+      &::after {
+        position: absolute;
+        top: -82px;
+        left: 0;
+        right: 0;
+        transform: rotate(225deg);
+      }
+    }
+  }
+
+  &__tooltip-modal {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    display: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    min-height: 78px;
+    height: fit-content;
+    z-index: 1301;
+    display: block;
+  }
+
+  &__modal-backdrop {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.72) !important;
+    z-index: 1300;
+  }
+
+  &__select {
+    width: 100%;
+  }
+
+  &__save {
+    background: $color-primary;
+    color: white;
+    border-radius: 3px;
+    padding: 4px 10px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 7px;
+
+    &:hover,
+    &:active {
+      background: $color-primary;
+      color: white;
+    }
+
+    &--modal {
+      @extend .c-add-button__save;
+      margin-left: 0px;
+      width: 100%;
+    }
+  }
+}
+
+.c-translate-button {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background: url($basePath + "/img/icons/translate.svg");
+  background-size: cover;
+}
+
+.c-tag-button {
+  background: $color-primary;
+  padding: 5px 30px 5px 15px;
+  height: 32px;
+  border-radius: 28px;
+  font-family: $font-museo-slab;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url($basePath + "/img/icons/icon-add.svg");
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    margin: auto;
+  }
+}
+
+.c-close-button {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  background: url($basePath + "/img/icons/close.svg");
+  background-size: cover;
+  margin: 10px;
+}
+
+.c-export-button {
+  width: 16px;
+  height: 16px;
+  background: url($basePath + "/img/icons/download.svg");
+  background-size: cover;
+  margin: 10px;
+
+  &__chart {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    height: 20px;
+  }
+}
+
+.single-selector-menu {
+  z-index: 3001 !important;
+}
+
+.c-node-tree-button {
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 0;
+  margin-inline: 1ch;
+  background-color: transparent;
+  font-size: 1.25rem;
+  display: flex;
+  place-content: center;
+  align-self: center;
+  position: relative;
+
+  &,
+  &:focus,
+  &:hover {
+    color: $color-grey;
+  }
+
+  &:after {
+    content: "";
+    width: 1px;
+    background: #ebedf3;
+    position: absolute;
+    right: -12px;
+    top: -7px;
+    height: 34px;
+  }
+}

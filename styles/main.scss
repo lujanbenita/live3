@@ -1,0 +1,176 @@
+/* ----------------------------- Reset Styles ---------------------------- */
+
+@import './../public/fonts/fonts.scss';
+@import './variables.scss';
+
+html {
+  margin: 0 !important;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: $font-museo-sans;
+  font-weight: normal;
+  width: 100%;
+  // overflow-x: hidden;
+  min-width: 320px;
+  // overflow-y: auto !important;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  height: auto !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a,
+button {
+  transition: opacity $transitions-hover-timing;
+  text-decoration: none;
+  background: none;
+
+  &:hover,
+  &:focus,
+  &:visited,
+  &:active {
+    color: white;
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-family: $font-museo-slab;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 1.63;
+  margin: 0;
+}
+
+.__react_component_tooltip.show {
+  opacity: 1 !important;
+  box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.15);
+  border: solid 1px #bdc3d5;
+}
+
+.MuiBottomNavigationAction-root {
+  min-width: unset !important;
+  padding-top: 8px !important;
+}
+
+.MuiTablePagination-root {
+  background: #fff !important;
+  border-radius: 0 0 3px 3px;
+  overflow: hidden;
+}
+
+/*******************************************************************************
+  CUSTOM PROPERTIES
+*******************************************************************************/
+:root {
+  --alva-primary: #ff0050;
+  --alva-primary-rgb: 255, 0, 80;
+  --alva-ash: #7f9db6;
+  --alva-sky: #009cd4;
+  --alva-white: #fff;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              Sass files import                             */
+/* -------------------------------------------------------------------------- */
+
+/* ---------------------------------- Pages --------------------------------- */
+@import '../pages/styles/pages.scss';
+@import '../pages/styles/error.scss';
+
+/* --------------------------------- Layout --------------------------------- */
+@import '../layout/styles/layout.scss';
+@import '../layout/styles/navbar.scss';
+@import '../layout/styles/sidebar.scss';
+
+/* ---------------------------------- Login --------------------------------- */
+@import '../components/login/styles/login.scss';
+
+/* --------------------------------- Search --------------------------------- */
+@import '../components/search/styles/search.scss';
+
+// SearchBar
+@import '../components/search/searchBar/styles/search-bar.scss';
+@import '../components/search/searchBar/styles/input-search.scss';
+@import '../components/search/searchBar/styles/date-picker.scss';
+@import '../components/search/searchBar/styles/country-selector.scss';
+
+//FilterBar
+@import '../components/search/filterBar/styles/filter-bar.scss';
+
+//Actions
+@import '../components/search/searchActions/styles/search-actions.scss';
+
+/* --------------------------------- Common --------------------------------- */
+@import '../components/common/common';
+
+/* ----------------------------- Key Lists ----------------------------- */
+@import '../components/keyList/styles/key-lists.scss';
+
+/* ----------------------------- Saved Searches ----------------------------- */
+@import '../components/savedSearches/styles/saved-searches.scss';
+
+/* ----------------------------- Saved Alerts ----------------------------- */
+@import '../components/alerts/styles/alerts.scss';
+
+/* ----------------------------- My Account ----------------------------- */
+@import '../components/myAccount/styles/my-settings.scss';
+
+/* ---------------------------------- Feed ---------------------------------- */
+@import '../components/feed/styles/feed.scss';
+@import '../components/feed/styles/feedTable.scss';
+@import '../components/feed/styles/feedModal.scss';
+
+/* ----------------------------- Article Details ---------------------------- */
+@import '../components/articleDetail/styles/article-detail.scss';
+@import '../components/tooltip/styles/tooltip.scss';
+
+@import './reset.scss';
+
+/* ----------------------------- Intro.js ---------------------------- */
+@import '../node_modules/intro.js/introjs.css';
+@import '../components/tutorial/styles/tutorial.scss';
+
+/* ----------------------------- Tag Taxonomy ---------------------------- */
+@import '../components/tagTaxonomy/styles/tagTaxonomy.scss';
+
+/* ----------------------------- Highcharts ---------------------------- */
+@import './highchart.scss';
+
+/* ----------------------------- Material UI ---------------------------- */
+@import './material-ui.scss';
+
+/* ----------------------------- Dashboard ---------------------------- */
+@import '../components/dashboard/styles/dashboard.scss';
+
+/* ----------------------------- Widgets ---------------------------- */
+@import '../components/dashboard/cards/styles/cards.scss';
+@import '../components/dashboard/items/styles/items.scss';

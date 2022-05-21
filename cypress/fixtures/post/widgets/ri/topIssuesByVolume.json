@@ -1,0 +1,162 @@
+[
+  {
+    "totalVolume": 496,
+    "issueTagId": 8310,
+    "positiveVolume": 287,
+    "issueTag": "Sales",
+    "neutralVolume": 192,
+    "negativeVolume": 17
+  },
+  {
+    "totalVolume": 459,
+    "issueTagId": 4746,
+    "positiveVolume": 174,
+    "issueTag": "Charitable Initiatives",
+    "neutralVolume": 205,
+    "negativeVolume": 80
+  },
+  {
+    "totalVolume": 340,
+    "issueTagId": 8308,
+    "positiveVolume": 197,
+    "issueTag": "Quality",
+    "neutralVolume": 117,
+    "negativeVolume": 26
+  },
+  {
+    "totalVolume": 286,
+    "issueTagId": 4722,
+    "positiveVolume": 196,
+    "issueTag": "Research Results",
+    "neutralVolume": 73,
+    "negativeVolume": 17
+  },
+  {
+    "totalVolume": 745,
+    "issueTagId": 7263,
+    "positiveVolume": 133,
+    "issueTag": "Covid19",
+    "neutralVolume": 484,
+    "negativeVolume": 128
+  },
+  {
+    "totalVolume": 384,
+    "issueTagId": 4090,
+    "positiveVolume": 189,
+    "issueTag": "Food Prices",
+    "neutralVolume": 188,
+    "negativeVolume": 7
+  },
+  {
+    "totalVolume": 209,
+    "issueTagId": 7309,
+    "positiveVolume": 176,
+    "issueTag": "Drug sales",
+    "neutralVolume": 31,
+    "negativeVolume": 2
+  },
+  {
+    "totalVolume": 476,
+    "issueTagId": 4194,
+    "positiveVolume": 158,
+    "issueTag": "Special Offers",
+    "neutralVolume": 299,
+    "negativeVolume": 19
+  },
+  {
+    "totalVolume": 354,
+    "issueTagId": 8278,
+    "positiveVolume": 103,
+    "issueTag": "Tips and Guidance",
+    "neutralVolume": 201,
+    "negativeVolume": 50
+  },
+  {
+    "totalVolume": 353,
+    "issueTagId": 10163,
+    "positiveVolume": 102,
+    "issueTag": "Defence: Environment",
+    "neutralVolume": 207,
+    "negativeVolume": 44
+  },
+  {
+    "totalVolume": 158,
+    "issueTagId": 4161,
+    "positiveVolume": 100,
+    "issueTag": "Product Launches",
+    "neutralVolume": 57,
+    "negativeVolume": 1
+  },
+  {
+    "totalVolume": 122,
+    "issueTagId": 7852,
+    "positiveVolume": 89,
+    "issueTag": "Tech Sustainability",
+    "neutralVolume": 13,
+    "negativeVolume": 20
+  },
+  {
+    "totalVolume": 241,
+    "issueTagId": 6905,
+    "positiveVolume": 80,
+    "issueTag": "Trust",
+    "neutralVolume": 127,
+    "negativeVolume": 34
+  },
+  {
+    "totalVolume": 103,
+    "issueTagId": 4587,
+    "positiveVolume": 92,
+    "issueTag": "Entrepreneurs",
+    "neutralVolume": 8,
+    "negativeVolume": 3
+  },
+  {
+    "totalVolume": 220,
+    "issueTagId": 7340,
+    "positiveVolume": 69,
+    "issueTag": "Pharma:Regulators",
+    "neutralVolume": 104,
+    "negativeVolume": 47
+  },
+  {
+    "totalVolume": 217,
+    "issueTagId": 6875,
+    "positiveVolume": 53,
+    "issueTag": "Policy",
+    "neutralVolume": 105,
+    "negativeVolume": 59
+  },
+  {
+    "totalVolume": 224,
+    "issueTagId": 8124,
+    "positiveVolume": 63,
+    "issueTag": "Technology",
+    "neutralVolume": 124,
+    "negativeVolume": 37
+  },
+  {
+    "totalVolume": 137,
+    "issueTagId": 8118,
+    "positiveVolume": 57,
+    "issueTag": "Donations",
+    "neutralVolume": 31,
+    "negativeVolume": 49
+  },
+  {
+    "totalVolume": 167,
+    "issueTagId": 8313,
+    "positiveVolume": 66,
+    "issueTag": "Marketing",
+    "neutralVolume": 78,
+    "negativeVolume": 23
+  },
+  {
+    "totalVolume": 263,
+    "issueTagId": 4847,
+    "positiveVolume": 63,
+    "issueTag": "Product Loyalty",
+    "neutralVolume": 199,
+    "negativeVolume": 1
+  }
+]

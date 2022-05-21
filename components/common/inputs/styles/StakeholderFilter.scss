@@ -1,0 +1,65 @@
+.c-extra-filter {
+	background-color: #162a3a;
+	padding: 5px 5px 0px 15px !important;
+	height: 40px;
+
+	&__popup-indicator {
+		transform: rotate(90deg);
+	}
+
+	label {
+		top: -8px;
+
+		&.Mui-focused {
+			top: 0;
+		}
+
+		&.MuiInputLabel-shrink {
+			top: -3px;
+		}
+	}
+
+	&__input {
+		font-family: $font-museo-sans;
+		font-size: 13px !important;
+		font-weight: 500 !important;
+		color: #ffffff !important;
+		min-height: 16px;
+		padding: 6px 0 6px 0 !important;
+	}
+	.c-multiple-select__autocomplete &__input-base {
+	&:before, &:after {
+			display: none !important;
+	}
+
+		& > input {
+			font-family: $font-museo-sans;
+			font-size: 13px !important;
+			font-weight: 500 !important;
+			color: #ffffff !important;
+			min-height: 16px;
+			padding: 6px 0 6px 0 !important;
+		}
+	}
+
+	label + .MuiInput-formControl {
+		margin-top: 8px;
+    height: 28px;
+	}
+
+	.MuiAutocomplete-inputRoot {
+    flex-wrap: initial;
+	}
+
+	.Mui-focused {
+    top: 0;
+	}
+
+	.MuiFormLabel-filled {
+		top: 0;
+	}
+
+	.MuiAutocomplete-endAdornment {
+    top: calc(50% - 11px);
+  }
+}

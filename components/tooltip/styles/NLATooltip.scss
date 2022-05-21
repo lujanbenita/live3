@@ -1,0 +1,63 @@
+.c-tooltip {
+  max-width: 300px;
+  position: relative;
+  background-color: white;
+  &__link {
+    color: #222;
+    text-decoration: underline;
+    &:hover,
+    &:active,
+    &:visited,
+    &:focus {
+      color: #222;
+      text-decoration: underline;
+    }
+  }
+  &__icon {
+    position: absolute;
+    top: -5px;
+    right: -20px;
+  }
+
+  &__border {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+    margin-right: 7px;
+    border: 1px solid white;
+    box-shadow: 0 2px 3px 1px rgb(0 0 0 / 22%);
+
+    @media (max-width: 1361px) {
+      width: 12px;
+      height: 12px;
+      top: 2px;
+      margin-right: 4px;
+    }
+  }
+
+  &__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 140%;
+  }
+
+  &__row {
+    display: block;
+    margin-top: 5px;
+    &:first-child {
+        margin-top: 0px;
+    }
+  }
+
+  &__label {
+
+  }
+
+  &__value {
+    font-weight: bold;
+  }
+}

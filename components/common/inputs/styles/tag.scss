@@ -1,0 +1,206 @@
+.c-tag {
+  margin: 3px 5px !important;
+  padding: 6px 20px 6px 20px !important;
+  border: solid 1px #f1f1f1 !important;
+  border-radius: 15.5px !important;
+  background-color: #ffffff !important;
+  font-family: $font-museo-slab !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  color: #3a4557 !important;
+  height: fit-content !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  position: relative !important;
+
+  &__item-group {
+    display: inline-block;
+    padding: 0 2px;
+  }
+
+  &__close-icon {
+    position: absolute;
+    right: 7px;
+    top: -1px;
+    bottom: 0;
+    margin: auto !important;
+    width: 16px !important;
+    height: 16px !important;
+    path {
+      fill: #5a5a5a;
+    }
+  }
+
+  &--text {
+    &::before {
+      content: '';
+      background: url($basePath + '/img/icons/search/text-black.svg');
+      background-size: cover;
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      left: 5px;
+      top: -1px;
+      bottom: 0;
+      margin: auto;
+      box-shadow: none;
+    }
+  }
+
+  &--company {
+    @extend .c-tag--text;
+
+    &::before {
+      content: '';
+      background: url($basePath + '/img/icons/search/building-black.svg');
+      background-size: cover;
+    }
+  }
+
+  &--people,
+  &--stakeholder,
+  &--person {
+    @extend .c-tag--text;
+
+    &::before {
+      content: '';
+      background: url($basePath + '/img/icons/user-blue.svg');
+      background-size: cover;
+    }
+  }
+
+  &--client-classification {
+    @extend .c-tag--text;
+
+    &::before {
+      content: '';
+      background: url($basePath + '/img/icons/search/building-black.svg');
+      background-size: cover;
+    }
+  }
+
+  &--product,
+  &--brand,
+  &--product-brand {
+    @extend .c-tag--text;
+
+    &::before {
+      content: '';
+      background: url($basePath + '/img/icons/search/product-black.svg');
+      background-size: cover;
+    }
+  }
+
+  &--topic {
+    @extend .c-tag--text;
+
+    &::before {
+      content: '';
+      background: url($basePath + '/img/icons/topic.svg');
+      background-size: cover;
+    }
+  }
+
+  &--tag {
+    @extend .c-tag--text;
+
+    &::before {
+      content: '';
+      background: url($basePath + '/img/icons/tag.svg');
+      background-size: cover;
+    }
+  }
+
+  &--positive-tone {
+    padding-right: 15px !important;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: url($basePath + '/img/icons/arrow-up.svg');
+      background-size: cover;
+      top: 0;
+      bottom: 0;
+      right: 5px;
+      margin: auto;
+    }
+  }
+
+  &--negative-tone {
+    @extend .c-tag--positive-tone;
+
+    &::after {
+      background: url($basePath + '/img/icons/arrow-down.svg');
+      background-size: cover;
+    }
+  }
+
+  &--neutral-tone {
+    @extend .c-tag--positive-tone;
+
+    &::after {
+      background: url($basePath + '/img/icons/tone-neutral.svg');
+      background-size: cover;
+    }
+  }
+
+  &--selected {
+    background-color: rgba(255, 227, 236, 0.65) !important;
+    border: 1px solid $color-primary !important;
+  }
+}
+
+.c-scroll-list-tags {
+  padding: 0 30px;
+  background: rgba(157, 167, 178, 0.1);
+  margin: 30px 0;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-primary;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(157, 167, 178, 0.1);
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    border-left: 1px solid rgba(151, 151, 151, 0.2);
+    display: block;
+  }
+
+  &__counter {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2d6ea3;
+    display: inline-block;
+    margin: 20px 0;
+  }
+
+  &__item {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px rgba(189, 195, 213, 0.233);
+  }
+
+  &__label {
+    font-family: $font-museo-slab;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a4557;
+  }
+
+  &__button-delete {
+    width: 32px;
+    height: 32px;
+    background: url($basePath + '/img/icons/delete.svg');
+    background-size: cover;
+  }
+}

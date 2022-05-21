@@ -1,0 +1,21 @@
+.c-modal-keylist {
+    &__search-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 30px;
+    }
+    &__search-input {
+        width: 100%;
+        label {
+            font-family: $font-museo-sans;
+            font-size: 13px !important;
+            font-weight: 300px;
+            color: #7f9db6;
+        }
+        input {
+            font-family: $font-museo-sans;
+            font-size: 13px;
+        }
+    }
+}

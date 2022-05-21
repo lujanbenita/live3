@@ -1,0 +1,39 @@
+.c-tab {
+  display: block;
+  padding: 16px;
+  font-family: $font-museo-sans;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+
+  &--active {
+    box-shadow: inset 0 -2px 0 0 $color-primary !important;
+  }
+}
+
+.c-tabs-bar {
+  display: flex;
+
+  &__tab {
+    text-align: center;
+    width: 170px;
+    max-width: 15vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .c-tab {
+    font-size: 13px;
+    padding: 16px 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .c-tab {
+    font-size: 12px;
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "loadDate": "2021-11-06",
+      "publishDateTime": "2021-11-07T00:05:34.942289",
+      "articleId": 6588700673,
+      "author": "Steve Houghton, August Graham",
+      "authorImageURL": null,
+      "publication": "Derby Telegraph",
+      "isoLanguageCode": "en",
+      "circulationSize": 1330114,
+      "retweetCount": 0,
+      "favouriteCount": 0,
+      "countryCode": "gb",
+      "countryName": "United Kingdom",
+      "region": "Europe",
+      "truncHeadline": "Five biggest supermarkets pledge to halve environmental impact of weekly food shop by 2030",
+      "headline": null,
+      "body": null,
+      "articleUrl": "https://www.derbytelegraph.co.uk/news/uk-world-news/five-biggest-supermarkets-pledge-halve-6170043",
+      "feed": "opoint",
+      "sourceFeed": "regionals-web",
+      "sourceType": "Regional News",
+      "channel": "Web",
+      "page": null,
+      "licenceName": null,
+      "tags": [
+        {
+          "tagId": 580,
+          "tagName": "Tesco",
+          "tagTypeName": "Company",
+          "sentimentScore": -41,
+          "weight": 2.2,
+          "firstMentionText": "Chief executives from Tesco, Sainsbury's, Waitrose, Co-op and M&S said they would work with the World Wide Fund for Nature (WWF) to reduce natural destruction"
+        }
+      ],
+      "customTags": null,
+      "sentimentScore": null,
+      "twitterImagePath": null,
+      "smallImagePath": null,
+      "largeImagePath": null,
+      "bannerImagePath": null
+    },
+    {
+      "loadDate": "2021-11-06",
+      "publishDateTime": "2021-11-07T00:04:55.865976",
+      "articleId": 6588699146,
+      "author": "uncredited",
+      "authorImageURL": null,
+      "publication": "Der Neue Wiesentbote",
+      "isoLanguageCode": "de",
+      "circulationSize": 94620,
+      "retweetCount": 0,
+      "favouriteCount": 0,
+      "countryCode": "de",
+      "countryName": "Germany",
+      "region": "Europe",
+      "truncHeadline": "Forchheim: Transition Forchheim und Omas for Future laden zum „Clean up“ ein",
+      "headline": null,
+      "body": null,
+      "articleUrl": "https://www.wiesentbote.de/2021/11/06/forchheim-transition-forchheim-und-omas-for-future-laden-zum-clean-up-ein/",
+      "feed": "opoint",
+      "sourceFeed": "regionals-web",
+      "sourceType": "Regional News",
+      "channel": "Web",
+      "page": null,
+      "licenceName": null,
+      "tags": [
+        {
+          "tagId": 2165,
+          "tagName": "Burger King",
+          "tagTypeName": "Company",
+          "sentimentScore": 18,
+          "weight": 12.100000000000001,
+          "firstMentionText": "Treffpunkt ist um 10.00 Uhr in der Bayreuther Straße auf dem Parkplatz beim Burger King, um dann den Müll in der Umgebung einzusammeln"
+        }
+      ],
+      "customTags": null,
+      "sentimentScore": null,
+      "twitterImagePath": null,
+      "smallImagePath": null,
+      "largeImagePath": null,
+      "bannerImagePath": null
+    }    
+  ],
+  "page": 1,
+  "pageSize": 2
+}

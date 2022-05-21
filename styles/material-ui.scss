@@ -1,0 +1,32 @@
+.MuiPopover-root#long-menu {
+  position: absolute !important;
+
+  .c-modal + & {
+    position: fixed !important; 
+  }
+}
+
+.c-export-button__chart {
+  .c-option-button__option {
+    color: #597d99 !important;
+  }
+}
+
+.MuiMenu-paper {
+  .MuiList-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+// Minimun circulation second range circle
+.c-range-slider {
+
+  .MuiSlider-thumb:last-child {
+    display: none;
+  }
+}
+
+.MuiTooltip-arrow::before {
+  border: 1px solid #bdc3d5;
+}

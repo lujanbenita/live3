@@ -1,0 +1,82 @@
+.c-modal-keylist {
+    &__wrapper{
+        position: relative;
+    }
+
+    &__close {
+        position: absolute;
+        top: -40px;
+        right: -40px;
+    }
+
+    &__body {
+        background-color: #f5f6f7;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;        
+    }
+    
+    &__keylist-title {
+        font-family: $font-museo-slab;
+        color: #2d6ea3;
+        font-size: 13px;
+        padding: 20px 30px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 40px;
+        width: 100%;
+        background-color: #f5f6f7;
+        margin-bottom: 0;
+        padding-bottom: 40px;
+        z-index: 100;
+    }
+    &__scroll-container {
+        height: 390px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: relative;
+
+        &::-webkit-scrollbar {
+        border-left: solid 1px #cfcfcf;
+        width: 9px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+        border: 2.5px solid transparent;
+        background-color: #ff004c;
+        border-radius: 25px;
+        background-clip: content-box;
+        }
+    }
+    &__footer {
+        display: flex;
+        padding: 20px 30px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__button {
+        font-family: $font-museo-sans;
+        padding: 4px 20px 4px 4px;
+        background-color: #ff004c;
+        cursor: pointer;
+        color: white;
+        border-radius: 3px;
+        font-size: 14px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 170px;
+        &:disabled {
+            background-color: #dedede;
+        }
+    }
+    &__cancel {
+        margin-left: 20px;
+        font-family: $font-museo-slab;
+        font-size: 12px;
+        color: #597d99;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

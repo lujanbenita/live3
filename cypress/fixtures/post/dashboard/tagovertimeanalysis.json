@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "datePeriod": "2021-10-19",
+      "amplification": 33865.80024024737,
+      "articleCount": 4161
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "datePeriod": "2021-10-20",
+      "amplification": 31114.594736022933,
+      "articleCount": 3942
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "datePeriod": "2021-10-21",
+      "amplification": 30419.80409992423,
+      "articleCount": 3833
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "datePeriod": "2021-10-22",
+      "amplification": 31272.552273102934,
+      "articleCount": 4129
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "datePeriod": "2021-10-23",
+      "amplification": 42978.160249426954,
+      "articleCount": 5534
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "datePeriod": "2021-10-24",
+      "amplification": 20261.42054530659,
+      "articleCount": 2526
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "datePeriod": "2021-10-25",
+      "amplification": 8576.557053288103,
+      "articleCount": 1111
+    }
+  ]
+}

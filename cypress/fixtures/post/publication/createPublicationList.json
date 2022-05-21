@@ -1,0 +1,17 @@
+{
+  "statusMessage": "Filter added successfully",
+  "statusCode": "201",
+  "description": "",
+  "data": {
+    "filterId": 999999,
+    "filterName": "cypress testing",
+    "filterParameterCount": 1,
+    "lastUpdateAt": "2021-11-29T10:07:43.891927",
+    "filterParameters": [
+      {
+        "filterParameterId": 999999,
+        "filterParameterValue": "Cuerpo y alma"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "countryName": "Spain",
+    "countryCode": "es",
+    "articleCount": 58
+  },
+  {
+    "countryName": "United States",
+    "countryCode": "us",
+    "articleCount": 45
+  },
+  {
+    "countryName": "Canada",
+    "countryCode": "ca",
+    "articleCount": 34
+  },
+  {
+    "countryName": "Australia",
+    "countryCode": "au",
+    "articleCount": 29
+  },
+  {
+    "countryName": "Italy",
+    "countryCode": "it",
+    "articleCount": 23
+  },
+  {
+    "countryName": "Japan",
+    "countryCode": "jp",
+    "articleCount": 18
+  },
+  {
+    "countryName": "France",
+    "countryCode": "fr",
+    "articleCount": 18
+  },
+  {
+    "countryName": "India",
+    "countryCode": "in",
+    "articleCount": 15
+  },
+  {
+    "countryName": "Netherlands",
+    "countryCode": "nl",
+    "articleCount": 12
+  },
+  {
+    "countryName": "Mexico",
+    "countryCode": "mx",
+    "articleCount": 8
+  },
+  {
+    "countryName": "Poland",
+    "countryCode": "pl",
+    "articleCount": 5
+  },
+  {
+    "countryName": "Germany",
+    "countryCode": "de",
+    "articleCount": 5
+  },
+  {
+    "countryName": "Hungary",
+    "countryCode": "hu",
+    "articleCount": 2
+  },
+  {
+    "countryName": "Panama",
+    "countryCode": "pa",
+    "articleCount": 2
+  },
+  {
+    "countryName": "Romania",
+    "countryCode": "ro",
+    "articleCount": 1
+  },
+  {
+    "countryName": "China",
+    "countryCode": "cn",
+    "articleCount": 1
+  },
+  {
+    "countryName": "Turkey",
+    "countryCode": "tr",
+    "articleCount": 1
+  },
+  {
+    "countryName": "Denmark",
+    "countryCode": "dk",
+    "articleCount": 1
+  },
+  {
+    "countryName": "Malaysia",
+    "countryCode": "my",
+    "articleCount": 1
+  }
+]

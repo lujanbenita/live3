@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <filter id="vw7ndqqp3a" width="118%" height="161.4%" x="-9%" y="-30.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="11" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.115056818 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="fom2wa029b">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.296907 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="o3hd1x0d3c" d="M16 8c-5.09 0-8 2.182-8 2.182v11.636S10.91 24 16 24s8-2.182 8-2.182V10.182S21.09 8 16 8zm-6.545 2.992c.311-.17.742-.382 1.284-.593 1.107-.431 2.918-.944 5.261-.944s4.154.513 5.261.944c.542.21.974.423 1.284.593v4.197c-.31.171-.743.384-1.283.595-1.107.43-2.92.943-5.262.943-2.342 0-4.155-.512-5.262-.943-.542-.211-.973-.424-1.283-.595v-4.197zm11.806 10.61c-1.107.43-2.918.943-5.261.943s-4.154-.513-5.261-.944c-.542-.21-.974-.423-1.284-.593v-4.193c1.339.62 3.567 1.367 6.545 1.367 2.978 0 5.206-.746 6.545-1.367v4.193c-.311.17-.742.382-1.284.593z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g  transform="translate(-79 -300) translate(71 148)">
+                <g transform="translate(8 146)">
+                    <g transform="translate(0 6)">
+                        <mask id="up0x2k4oed" fill="#fff">
+                            <use xlink:href="#o3hd1x0d3c"/>
+                        </mask>
+                        <use fill="#3a4557" fill-rule="nonzero" xlink:href="#o3hd1x0d3c"/>
+                        <g fill="#3a4557" mask="url(#up0x2k4oed)">
+                            <path d="M0 0H32V32H0z"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

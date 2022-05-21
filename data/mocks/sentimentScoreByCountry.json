@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Canada",
+        "value": 100
+    },
+    {
+        "name": "Spain",
+        "value": -100
+    },
+    {
+        "name": "United States",
+        "value": -60
+    },
+    {
+        "name": "United Kingdom",
+        "value": 40.5
+    },
+    {
+        "name": "France",
+        "value": 30.5
+    },
+    {
+        "name": "Italy",
+        "value": -10.4
+    },
+    {
+        "name": "Mexico",
+        "value": -30.4
+    }
+]

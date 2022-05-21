@@ -1,0 +1,9 @@
+{
+  "viewportWidth": 1024,
+  "viewportHeight": 768,
+  "numTestsKeptInMemory": 0,
+  "defaultCommandTimeout": 30000,
+  "env": {
+    "BABEL_ENV": "e2e"
+  }
+}

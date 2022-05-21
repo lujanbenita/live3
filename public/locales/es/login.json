@@ -1,0 +1,16 @@
+{
+  "pageTitle": "Bienvenido a",
+  "userLabel": "Tu dirección correo",
+  "passwordLabel": "Tu contraseña",
+  "rememberMe": "Recuérdame",
+  "loginBtn": "Acceder",
+  "passForgot": "He olvidado mi contraseña",
+  "pageTitleRecovery": "Recuperar contraseña",
+  "helpTextRecovery": "Introduce tu correo electrónico. Te enviaremos las intrucciones para restaurar tu contraseña!",
+  "mailLabelRecovery": "Tu dirección de correo electrónico",
+  "sendBtn": "Enviar",
+  "backToLogin": "Volver al inicio de sessión",
+  "pageTitleReset": "Restaurar contraseña",
+  "newPasswordReset": "Nueva contraseña",
+  "confirmNewPasswordReset": "Confirmar nueva contraseña"
+}

@@ -1,0 +1,63 @@
+.c-feed-modal-tags {
+  min-height: 370px;
+
+  &__input {
+    padding: 30px;
+  }
+
+  &__actual-tags-title {
+    font-family: $font-museo-sans;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2d6ea3;
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+
+  &__tags {
+    padding: 25px;
+    background: rgba(157, 167, 178, 0.1);
+    min-height: 220px;
+    max-height: 212px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-primary;
+      border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: rgba(157, 167, 178, 0.1);
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      border-left: 1px solid rgba(151, 151, 151, 0.2);
+      display: block;
+    }
+  }
+
+  &__actual-tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__no-results {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    color: $color-text;
+
+    &-keyboard {
+      display: inline-block;
+      padding: 3px 4px;
+      border: 1px solid $color-text;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 6px;
+      margin: 0 5px;
+      font-family: $font-museo-slab;
+      font-size: 12px;
+    }
+  }
+}

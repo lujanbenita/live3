@@ -1,0 +1,17 @@
+{
+  "statusMessage": "Filter updated successfully for filter id:811",
+  "statusCode": "200",
+  "description": "",
+  "data": {
+    "filterId": 811,
+    "filterName": "Novelist ",
+    "filterParameterCount": 2,
+    "lastUpdateAt": "2021-06-24T17:13:23.954950",
+    "filterParameters": [
+      {
+        "filterParameterId": 1204358,
+        "filterParameterValue": "Webrazzi"
+      }
+    ]
+  }
+}

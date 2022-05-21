@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <filter id="ygc44ubnya">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.347741 0 0 0 0 0.488439 0 0 0 0 0.600901 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="c5ubmmdslb" d="M6.472 0c3.574 0 6.472 2.898 6.472 6.472 0 1.528-.531 2.932-1.417 4.038l4.083 4.083c.28.28.28.736 0 1.017-.281.28-.736.28-1.017 0l-4.083-4.083c-1.107.886-2.51 1.417-4.038 1.417C2.898 12.944 0 10.046 0 6.472 0 2.898 2.898 0 6.472 0zm0 1.438c-2.78 0-5.034 2.254-5.034 5.034s2.254 5.034 5.034 5.034 5.034-2.254 5.034-5.034-2.254-5.034-5.034-5.034zm2.157 4.315c.397 0 .72.322.72.719 0 .397-.323.719-.72.719H4.315c-.398 0-.72-.322-.72-.72 0-.396.322-.718.72-.718z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g filter="url(#ygc44ubnya)" transform="translate(-775 -1277) translate(69 881) translate(666 388)">
+                    <g>
+                        <g transform="translate(32) translate(8 8)">
+                            <use fill="#000" fill-rule="nonzero" xlink:href="#c5ubmmdslb"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

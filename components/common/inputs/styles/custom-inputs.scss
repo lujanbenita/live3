@@ -1,0 +1,214 @@
+.c-custom-multiple-tags-input {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+  padding: 5px 5px 5px 10px;
+  border: solid 1px #bdc3d5;
+  background-color: #f5f6f7;
+  align-items: center;
+  position: relative;
+
+  &__label {
+    font-family: $font-museo-sans;
+    font-size: 10px;
+    font-weight: 500;
+    color: $color-text;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+
+  &__input-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: auto;
+    max-height: 100px;
+    margin-right: 2px;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-primary;
+      border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: rgba(157, 167, 178, 0.1);
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+      border-left: 1px solid rgba(151, 151, 151, 0.2);
+      display: block;
+    }
+  }
+
+  &__input {
+    border: none;
+    background: none;
+    flex: auto;
+    margin: 5px;
+
+    &:focus,
+    &:hover {
+      outline: none;
+      border: none;
+    }
+  }
+
+  &__button {
+    display: block;
+    background: $color-primary;
+    padding: 10px 20px 10px 40px;
+    border-radius: 3px;
+    height: 100%;
+    position: relative;
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+  }
+
+  &--blue {
+    background: $color-blue;
+  }
+
+  &--disabled-button {
+    opacity: 0.6;
+  }
+
+  &--check {
+    &::before {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background: url($basePath + '/img/icons/check.svg');
+      background-size: cover;
+      top: 0;
+      bottom: 0;
+      left: 5px;
+      margin: auto;
+    }
+  }
+
+  &__tag {
+    border: none !important;
+    background-color: white !important;
+    width: max-content;
+  }
+
+  &__no-results {
+    margin: 15px;
+    display: block;
+    color: $color-text;
+  }
+
+  &__popper {
+    display: none;
+    width: 100%;
+    background: white !important;
+    position: absolute;
+    bottom: -145px;
+    left: 0;
+    margin: auto;
+    max-height: 144px;
+    height: 144px;
+    border-radius: 0 0 3px 3px;
+    overflow-y: scroll;
+    z-index: 2;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-primary;
+      border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: rgba(157, 167, 178, 0.1);
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+      border-left: 1px solid rgba(151, 151, 151, 0.2);
+      display: block;
+    }
+
+    &--open {
+      display: block;
+    }
+  }
+}
+
+.c-custom-select-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 144px;
+  height: 48px;
+  padding: 0 18px 0 13px;
+
+  &:hover {
+    background: rgba(157, 167, 178, 0.1);
+  }
+
+  &__label {
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5a5a5a;
+  }
+
+  &--red-tag {
+    padding-left: 30px;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      background: url($basePath + '/img/icons/red-tag.svg');
+      background-size: cover;
+      top: 0;
+      bottom: 0;
+      left: 0px;
+      margin: auto;
+    }
+  }
+
+  &--author {
+    @extend .c-custom-select-option--red-tag;
+
+    &:before {
+      background: url($basePath + '/img/icons/icons-author-blue.svg') !important;
+      background-size: cover !important;
+      width: 32px;
+      height: 32px;
+      left: -5px;
+    }
+  }
+
+  &--publication {
+    @extend .c-custom-select-option--red-tag;
+
+    &:before {
+      background: url($basePath + '/img/icons/publication.svg') !important;
+      background-size: cover !important;
+      width: 32px;
+      height: 32px;
+      left: -5px;
+    }
+  }
+
+  &--selected {
+    background: rgba(157, 167, 178, 0.1);
+    span {
+      color: $color-primary;
+    }
+  }
+
+  &--hovered {
+    background: rgba(157, 167, 178, 0.1);
+  }
+}

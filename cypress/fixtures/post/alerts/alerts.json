@@ -1,0 +1,17 @@
+{
+  "alertDeliveryTime": "00:05",
+  "alertEnabled": "Y",
+  "alertId": 999,
+  "alertName": "Alert Carlos Cypress test",
+  "alertSubject": "cypress@cypress.com",
+  "alertType": "P",
+  "emails": ["cypress@cypress.com"],
+  "lastAlertTime": "2021-11-11 07:31:00",
+  "minAudienceRecallScore": "0.0",
+  "minHitStrength": "0.0",
+  "workspaces": [{
+    "sectionOrder": "1",
+    "workspaceId": 3510,
+    "workspaceName": "pepo"
+  }]
+}

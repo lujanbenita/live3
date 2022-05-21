@@ -1,0 +1,35 @@
+.c-tags-list {
+  &__label {
+    font-family: $font-museo-sans;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7f9db6;
+    margin-bottom: 5px;
+  }
+
+  &__wrapper {
+    border-radius: 3px;
+    border: solid 1px #bdc3d5;
+    background-blend-mode: multiply;
+    background-image: linear-gradient(to bottom, rgba(157, 167, 178, 0.1), rgba(157, 167, 178, 0.1));
+    height: 100px;
+    padding: 10px;
+    display: block;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 9px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border: 2.5px solid transparent;
+      background-color: #ff004c;
+      border-radius: 25px;
+      background-clip: content-box;
+    }
+
+    .c-tag {
+      display: inline-block !important;
+    }
+  }
+}

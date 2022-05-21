@@ -1,0 +1,89 @@
+{
+  "loadDate": "2021-10-25",
+  "publishDateTime": "2021-10-25T10:21:13.152921",
+  "articleId": 6546249713,
+  "author": "Matt Breen",
+  "authorImageURL": null,
+  "publication": "thesun.ie",
+  "isoLanguageCode": "en",
+  "circulationSize": 1032,
+  "retweetCount": 0,
+  "favouriteCount": 0,
+  "countryCode": "gb",
+  "countryName": "United Kingdom",
+  "region": "Europe",
+  "truncHeadline": null,
+  "headline": "HURRY! Nintendo Switch OLED restock update – Neon Blue/Neon Red model still in stock at Amazon",
+  "body": "\n                  Other retailers are out of Nintendo Switch OLED stock, but Amazon still has the Neon Blue/Neon Red version – for now.\n                  And the price keeps on changing – honestly, we can’t keep up.\n                  \n                    ...",
+  "articleUrl": "https://www.nla-eclipsweb.com/service/redirector/article/76907417.pdf",
+  "feed": "eclips-web",
+  "sourceFeed": "nationals-web",
+  "sourceType": "National News",
+  "channel": "Web",
+  "page": null,
+  "licenceName": null,
+  "tags": [
+    {
+      "tagId": 8702,
+      "tagName": "Booming stock",
+      "tagTypeName": "Client Classification",
+      "sentimentScore": -3,
+      "weight": 44.0,
+      "firstMentionText": "HURRY! Nintendo Switch OLED restock update – Neon Blue/Neon Red model still in stock at Amazon"
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "tagTypeName": "Company",
+      "sentimentScore": -3,
+      "weight": 34.57142857142858,
+      "firstMentionText": "HURRY! Nintendo Switch OLED restock update – Neon Blue/Neon Red model still in stock at Amazon"
+    },
+    {
+      "tagId": 1889,
+      "tagName": "Amazon",
+      "tagTypeName": "Company",
+      "sentimentScore": -3,
+      "weight": 31.42857142857143,
+      "firstMentionText": "HURRY! Nintendo Switch OLED restock update – Neon Blue/Neon Red model still in stock at Amazon"
+    },
+    {
+      "tagId": 5617,
+      "tagName": "Suppliers",
+      "tagTypeName": "Stakeholder",
+      "sentimentScore": -57,
+      "weight": 13.200000000000001,
+      "firstMentionText": "Supply chain problems and a shortage of semi-conductors have left gamers increasingly frustrated at the scarcity of these devices – especially as Black Friday is now just around the corner"
+    },
+    {
+      "tagId": 5457,
+      "tagName": "Influencers / Journalists / Analysts",
+      "tagTypeName": "Stakeholder",
+      "sentimentScore": 17,
+      "weight": 13.200000000000001,
+      "firstMentionText": "Our Gaming Editor, Shabana Arif, absolutely loved Nintendo’s newest piece of tech"
+    },
+    {
+      "tagId": 5425,
+      "tagName": "Investors",
+      "tagTypeName": "Stakeholder",
+      "sentimentScore": -2,
+      "weight": 4.4,
+      "firstMentionText": null
+    },
+    {
+      "tagId": 4194,
+      "tagName": "Special Offers",
+      "tagTypeName": "Topic",
+      "sentimentScore": -5,
+      "weight": 37.400000000000006,
+      "firstMentionText": "Supply chain problems and a shortage of semi-conductors have left gamers increasingly frustrated at the scarcity of these devices – especially as Black Friday is now just around the corner"
+    }
+  ],
+  "customTags": null,
+  "sentimentScore": null,
+  "twitterImagePath": null,
+  "smallImagePath": "source_types/default_sml.jpg",
+  "largeImagePath": "source_types/default_lrg.jpg",
+  "bannerImagePath": "source_types/default_banner.jpg"
+}

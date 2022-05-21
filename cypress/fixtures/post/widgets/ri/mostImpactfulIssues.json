@@ -1,0 +1,102 @@
+[
+  {
+    "issueTag": "Food Labelling",
+    "issueTagId": 4031,
+    "sentimentScore": 70.47
+  },
+  {
+    "issueTag": "Business Relocation",
+    "issueTagId": 4478,
+    "sentimentScore": 68.22
+  },
+  {
+    "issueTag": "Graduate Scheme",
+    "issueTagId": 5077,
+    "sentimentScore": 68.22
+  },
+  {
+    "issueTag": "Parkinson's",
+    "issueTagId": 4098,
+    "sentimentScore": 67.56
+  },
+  {
+    "issueTag": "Offices",
+    "issueTagId": 7337,
+    "sentimentScore": 66.85
+  },
+  {
+    "issueTag": "Collaborations",
+    "issueTagId": 8110,
+    "sentimentScore": 65.78
+  },
+  {
+    "issueTag": "Repossessions",
+    "issueTagId": 8322,
+    "sentimentScore": 64.82
+  },
+  {
+    "issueTag": "Security at Malls",
+    "issueTagId": 4599,
+    "sentimentScore": 64.61
+  },
+  {
+    "issueTag": "Living Wage",
+    "issueTagId": 4462,
+    "sentimentScore": 64.49
+  },
+  {
+    "issueTag": "Gender Pay Gap",
+    "issueTagId": 4083,
+    "sentimentScore": 64.49
+  },
+  {
+    "issueTag": "Utils:Nationalisation",
+    "issueTagId": 4303,
+    "sentimentScore": -64.82
+  },
+  {
+    "issueTag": "Multiple Sclerosis",
+    "issueTagId": 5075,
+    "sentimentScore": -64.87
+  },
+  {
+    "issueTag": "Decline of Stores",
+    "issueTagId": 4484,
+    "sentimentScore": -66.89
+  },
+  {
+    "issueTag": "Insurance Claims",
+    "issueTagId": 4311,
+    "sentimentScore": -67.11
+  },
+  {
+    "issueTag": "Tax Policy",
+    "issueTagId": 3798,
+    "sentimentScore": -67.19
+  },
+  {
+    "issueTag": "Environmental Reg",
+    "issueTagId": 4247,
+    "sentimentScore": -69.04
+  },
+  {
+    "issueTag": "Fake News",
+    "issueTagId": 8380,
+    "sentimentScore": -69.17
+  },
+  {
+    "issueTag": "Landfill Tax",
+    "issueTagId": 4497,
+    "sentimentScore": -76.34
+  },
+  {
+    "issueTag": "Probation News",
+    "issueTagId": 5400,
+    "sentimentScore": -76.58
+  },
+  {
+    "issueTag": "Service Outage Restore",
+    "issueTagId": 3894,
+    "sentimentScore": -79.72
+  }
+]

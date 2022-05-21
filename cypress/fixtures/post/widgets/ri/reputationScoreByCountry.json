@@ -1,0 +1,12 @@
+[
+  {
+    "countryCode": "us",
+    "countryName": "United States",
+    "reputationScore": 60.5
+  },
+  {
+    "countryCode": "gb",
+    "countryName": "United Kingdom",
+    "reputationScore": 80.5
+  }
+]

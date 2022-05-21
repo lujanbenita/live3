@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2020-01-01",
+    "score": 14.2,
+    "name": "Apple",
+    "trend": -10.2
+  },
+
+  {
+    "date": "2020-01-02",
+    "score": -34.3,
+    "name": "Apple",
+    "trend": -10
+  },
+  {
+    "date": "2020-01-03",
+    "score": 24.4,
+    "name": "Apple",
+    "trend": -9.2
+  },
+  {
+    "date": "2020-01-04",
+    "score": 4.5,
+    "name": "Apple",
+    "trend": -8.2
+  },
+  {
+    "date": "2020-01-05",
+    "score": -4.3,
+    "name": "Apple",
+    "trend": -4.2
+  },
+  {
+    "date": "2020-01-06",
+    "score": 34.7,
+    "name": "Apple",
+    "trend": 3.2
+  },
+
+  {
+    "date": "2020-01-07",
+    "score": -64.2,
+    "name": "Apple",
+    "trend": 0
+  },
+
+  {
+    "date": "2020-01-08",
+    "score": 34.3,
+    "name": "Apple",
+    "trend": 1.4
+  },
+  {
+    "date": "2020-01-09",
+    "score": 14.4,
+    "name": "Apple",
+    "trend": -1.4
+  },
+  {
+    "date": "2020-01-10",
+    "score": 24.5,
+    "name": "Apple",
+    "trend": 5.4
+  },
+  {
+    "date": "2020-01-11",
+    "score": -4.3,
+    "name": "Apple",
+    "trend": 2.4
+  },
+  {
+    "date": "2020-01-12",
+    "score": 4.7,
+    "name": "Apple",
+    "trend": 1.4
+  },
+
+  {
+    "date": "2020-01-13",
+    "score": 4.2,
+    "name": "Apple",
+    "trend": -1
+  }
+]

@@ -1,0 +1,42 @@
+.c-company-avatar {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+  border: solid 2px #ffffff;
+  border-radius: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    background: url($basePath + '/img/icons/user.svg') !important;
+    background-size: cover !important;
+  }
+}
+
+.c-letter-avatar {
+  margin-right: 12px;
+  font-family: $font-museo-slab !important;
+  font-size: 20px;
+  background-color: $color-primary !important;
+
+  &--small {
+    @extend .c-circulation-widget__avatar;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 18px;
+  }
+
+  &--blue {
+    background-color: $color-blue !important;
+  }
+
+  &--gray {
+    background-color: #bac9d7 !important;
+  }
+}

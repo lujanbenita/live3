@@ -1,0 +1,244 @@
+.c-input-search {
+  width: 100%;
+  min-width: 100%;
+  background-color: #fff;
+  margin: auto 0;
+  overflow-x: scroll;
+  margin-left: -1px;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  z-index: 2;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__absolute-position-reference {
+    position: relative;
+    
+    width: calc(100% - 167px);
+
+    @media (min-width: 790px) {
+      width: calc(100% - 251px);
+    }
+
+    @media (min-width: 1200px) {
+      width: calc(100% - 330px - 84px - 137px);
+    }
+
+    .c-search-bar__main--no-calendar & {
+      width: 100%;
+
+      @media (min-width: 790px) {
+        width: 100%;
+      }
+  
+      @media (min-width: 1200px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &__input-container {
+    width: auto;
+
+    background-color: #fff;
+    display: flex;
+    padding-left: 10px;
+    margin: auto 0;
+    align-items: center;
+
+    &--open {
+      background-color: #ffffff;
+      width: 100%;
+      min-width: 100%;
+      flex-wrap: wrap;
+      padding-bottom: 7px;
+    }
+  }
+
+  &__input {
+    margin: auto 0;
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-family: $font-museo-slab;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 27px;
+    color: #a5b0bb;
+    padding: 5px 5px;
+  }
+
+  &__open-help-button {
+    position: absolute;
+    top: -2px;
+    bottom: 0;
+    right: 1px;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) -5%,
+      #ffffff 30%
+    );
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+
+    img {
+      width: 80%;
+    }
+  }
+
+  &__list-box {
+    width: 100%;
+    margin-top: -3px;
+    padding: 0;
+    position: absolute;
+    list-style: none;
+    background-color: #fff;
+    overflow: auto;
+    max-height: 250px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+
+    & li {
+      padding: 5px 12px;
+      display: flex;
+
+      & span {
+        flex-grow: 1;
+      }
+
+      & svg {
+        color: transparent;
+      }
+    }
+  }
+}
+
+.c-input-search-option {
+  padding: 14px 20px 14px 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(157, 167, 178, 0.1);
+  }
+
+  &__title {
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5a5a5a;
+  }
+
+  &__type {
+    font-family: $font-museo-sans;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+    color: #b2b1b1;
+  }
+
+  &__tooltip {
+    max-width: 500px;
+    font-family: $font-museo-sans;
+    color: white;
+    background: #121d28;
+    font-size: 12px;
+  }
+
+  &__tooltip-icon {
+    margin-right: 10px;
+    display: flex;
+    position: relative;
+  }
+
+  &__type-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &--company {
+    &::before {
+      content: '';
+      background: url($basePath + '/img/icons/search/building.svg');
+      background-size: cover;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      left: 5px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      box-shadow: none;
+    }
+  }
+
+  &--text {
+    @extend .c-input-search-option--company;
+    &::before {
+      background: url($basePath + '/img/icons/search/text.svg');
+      background-size: cover;
+    }
+  }
+
+  &--product,
+  &--product-brand {
+    @extend .c-input-search-option--company;
+    &::before {
+      background: url($basePath + '/img/icons/search/product.svg');
+      background-size: cover;
+    }
+  }
+
+  &--brand {
+    @extend .c-input-search-option--company;
+    &::before {
+      background: url($basePath + '/img/icons/search/product.svg');
+      background-size: cover;
+    }
+  }
+
+  &--people,
+  &--client-classification,
+  &--stakeholder,
+  &--person {
+    @extend .c-input-search-option--company;
+    &::before {
+      background: url($basePath + '/img/icons/search/user.svg');
+      background-size: cover;
+    }
+  }
+
+  &--topic {
+    @extend .c-input-search-option--company;
+    &::before {
+      background: url($basePath + '/img/icons/search/product.svg');
+      background-size: cover;
+    }
+  }
+
+  &--selected {
+    background-color: rgba(157, 167, 178, 0.1);
+    cursor: auto;
+
+    .c-input-search-option__title {
+      color: $color-primary;
+    }
+  }
+
+  &--hovered {
+    background-color: rgba(157, 167, 178, 0.1);
+  }
+}

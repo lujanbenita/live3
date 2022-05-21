@@ -1,0 +1,121 @@
+.c-tutorial {
+    &__tooltip {
+        width: 400px !important;
+        max-width: 400px !important;
+
+        .introjs-tooltip-header {
+            position: absolute;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: 0;
+        }
+
+        .introjs-skipbutton {
+            color: #666;
+            float: right;
+            font-size: 40px;
+            line-height: 0;
+            padding: 5px;
+            position: absolute;
+            right: 15px;
+            top: 25px;
+        }
+
+        .introjs-tooltiptext {
+            padding: 30px 30px 10px 30px;
+        }
+
+        .introjs-tooltipbuttons {
+            position: relative;
+            border: none;
+            padding: 30px;
+            &::before {
+                content: ' ';
+                width: calc(100% - 60px);
+                height: 1px;
+                border-top: solid 1px #bdc3d5;
+                position: absolute;
+                top: 0;
+                left: 30px;
+            }
+        }
+
+        .introjs-button {
+            font-size: 14px;
+            font-weight: 900;
+            color: white;
+            border: none;
+            text-transform: uppercase;  
+            font-family: $font-museo-sans;
+            text-shadow: none;
+            border-radius: 3px;
+            padding: 5px 25px 5px 25px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        .introjs-nextbutton {
+            background-color: #ff004c;
+        } 
+
+        .introjs-prevbutton {
+            background-color: #7f9db6;
+        } 
+        
+        .introjs-disabled {
+            background-color: #90909091;
+        }
+
+        &--dashboard-1 {
+            margin-top: 40px;
+            margin-left: 5px;
+        }
+
+        &--dashboard-2 {
+            margin-left: 40px;
+        }
+
+        &--dashboard-3 {
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        &--dashboard-4 {
+            margin-top: 25px;
+            margin-right: 10px;
+        }
+
+        &--dashboard-5 {
+            margin-right: 40px;
+        }
+    }
+    &__text {
+        color: #2d6ea3;
+        font-size: 16px;
+        font-family: $font-museo-sans;
+        p {
+            font-family: $font-museo-sans;
+            font-weight: 300;
+            margin-top: 0;
+            margin-bottom: 20px;
+            line-height: 120%;
+            &:first-child {
+                margin-top: 20px;
+            }
+        }
+    }
+    &__highlight {
+        border: 2px solid #ff004c;
+        border-radius: 6px;
+        margin: -15px;
+        padding: 15px; 
+        &--inner {
+            margin: 0;
+            padding: 0;            
+        }
+        &--enabled-events {
+            pointer-events: none;
+        }
+    }
+}

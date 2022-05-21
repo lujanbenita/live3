@@ -1,0 +1,774 @@
+@import 'StakeholderFilter';
+
+.MuiInputLabel-root {
+  color: $color-blue !important;
+  font-size: 13px !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 1px solid $color-blue !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid $color-blue !important;
+}
+
+.c-input {
+  margin-bottom: 30px;
+  display: flex !important;
+
+  label {
+    font-family: $font-museo-sans;
+    font-size: 13px;
+    font-weight: 500;
+    color: $color-text;
+  }
+
+  input {
+    font-family: $font-museo-sans;
+    font-size: 13px;
+    font-weight: 500;
+    color: $color-text;
+  }
+
+  .MuiFormLabel-root.Mui-focused {
+    color: $color-text;
+  }
+
+  .MuiInputLabel-shrink {
+    transform: translate(0, 1.5px) scale(0.85) !important;
+  }
+
+  .MuiInput-underline:after {
+    border-bottom: 2px solid $color-text;
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+}
+
+.c-switch {
+  display: flex !important;
+  margin-left: unset !important;
+  margin-right: unset !important;
+  justify-content: space-between !important;
+  margin: 25px 0;
+
+  &__label {
+    font-family: $font-museo-sans;
+    font-size: 13px;
+    font-weight: 500;
+    color: #597d99;
+  }
+
+  // Override MUi Styles
+
+  &__switch {
+    overflow: visible !important;
+  }
+
+  .MuiFormControlLabel-root {
+    margin-right: 0 !important;
+  }
+}
+
+.c-checkbox {
+  width: 16px;
+  min-width: 17px;
+  height: 16px;
+  min-height: 16px;
+  border-radius: 2px;
+  border: 1px solid #bdc3d5;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+
+  &--checked {
+    &::after {
+      content: '';
+      background: url($basePath + '/img/icons/active.svg');
+      background-size: cover;
+      width: 14px;
+      height: 13px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin: auto;
+    }
+  }
+}
+
+.c-multiple-select {
+  &__autocomplete {
+    input {
+      font-family: $font-museo-sans;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      color: #ffffff !important;
+      min-height: 16px;
+      padding: 6px 0 !important;
+    }
+
+    label {
+      color: $color-light-blue !important;
+      font-family: $font-museo-sans !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      min-height: 16px;
+    }
+
+    .c-multiple-select__end-adornment {
+      svg {
+        fill: $color-light-blue;
+      }
+    }
+  }
+
+  &__autocomplete--focused {
+    label {
+      color: $color-light-blue !important;
+    }
+
+    .c-multiple-select__end-adornment {
+      svg {
+        fill: white;
+      }
+    }
+  }
+
+  &__input,
+  &__input--focused {
+    color: white !important;
+  }
+
+  &__input-base {
+    flex-wrap: nowrap !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+
+    &::before {
+      border-bottom: 1px solid $color-light-blue !important;
+    }
+
+    &::after {
+      border-bottom: 2px solid #fff !important;
+    }
+  }
+
+  &__tag {
+    font-family: $font-museo-sans;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+
+    .c-search__extra-filter & {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 130px;
+    }
+  }
+
+  &__more-tag {
+    font-family: $font-museo-sans;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5px 0;
+    overflow-x: hidden;
+  }
+
+  &__list-item-label {
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5a5a5a;
+
+    &--checked {
+      color: $color-primary;
+    }
+  }
+
+  &__list-item-field {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list-box {
+    padding: 0 !important;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-primary;
+      border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: rgba(157, 167, 178, 0.1);
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+      display: block;
+    }
+  }
+}
+
+.c-range-slider {
+  &__label {
+    font-family: $font-museo-sans;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    color: $color-light-blue !important;
+    margin-bottom: 1em !important;
+  }
+
+  &__slider {
+    padding-top: 16px !important;
+    padding-bottom: 0px !important;
+  }
+
+  &__value-label {
+    top: -12px !important;
+    right: 5px !important;
+    left: auto !important;
+
+    span {
+      min-width: 18px;
+      transform: unset !important;
+      width: fit-content;
+      height: fit-content;
+      padding: 1px 2px;
+      border-radius: 6px;
+      position: relative;
+
+      &::after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 10px 10px 0;
+        border-color: transparent $color-primary transparent transparent;
+        position: absolute;
+        bottom: -3px;
+        right: 0;
+        z-index: -1;
+      }
+    }
+
+    span > span {
+      text-align: center;
+      transform: unset !important;
+      margin-top: 1px;
+      text-align: center;
+    }
+  }
+
+  .MuiSlider-thumb:not(:nth-child(4)) {
+    .c-range-slider__value-label {
+      right: 5px !important;
+      left: auto !important;
+
+      span {
+        background: transparent;
+        border-radius: 6px;
+
+        &::after {
+          content: none;
+        }
+      }
+    }
+  }
+
+  &__rail {
+    background-color: $color-light-blue !important;
+  }
+}
+
+.c-single-selector {
+  min-width: 100px !important;
+
+  &__label {
+    font-size: 13px !important;
+    font-family: $font-museo-sans !important;
+    color: $color-blue !important;
+  }
+
+  .MuiInputBase-root {
+    &::before {
+      border-bottom: 1px solid $color-light-blue !important;
+    }
+
+    &::after {
+      border-bottom: 2px solid $color-blue !important;
+    }
+  }
+
+  input,
+  &__root {
+    font-family: $font-museo-sans !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #597d99 !important;
+  }
+}
+
+.c-text-field {
+  width: 100%;
+
+  .MuiFormLabel-root {
+    font-size: 13px !important;
+    font-family: $font-museo-sans !important;
+    color: #7f9db6 !important;
+  }
+
+  .MuiInputBase-root {
+    flex-wrap: nowrap !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+
+    &::before {
+      border-bottom: 1px solid $color-light-blue !important;
+    }
+
+    &::after {
+      border-bottom: 2px solid #fff !important;
+    }
+  }
+
+  .MuiInput-input {
+    font-family: $font-museo-sans !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+    padding: 6px 0 !important;
+    min-height: 16px !important;
+    width: calc(100% - 25px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &--select {
+    padding-right: 20px;
+    position: relative;
+    min-height: 31px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 0px;
+      width: 0px;
+      border-style: solid;
+      border-width: 5px 5px 0 5px;
+      border-color: $color-light-blue transparent transparent transparent;
+      top: 15px;
+      bottom: 0;
+      right: 6px;
+      margin: auto;
+      transition: all 0.15s ease;
+
+      .c-filter-bar__selector--bg & {
+        border-color: $color-red transparent transparent transparent;
+      }
+    }
+
+    
+
+    &--open::after {
+      border-color: white transparent transparent transparent;
+      transform: rotate(180deg);
+    }
+  }
+
+  &--blue {
+    .MuiInput-input {
+      color: $color-dark-blue !important;
+    }
+
+    .MuiInputBase-root {
+      &::before {
+        border-bottom: 1px solid $color-dark-blue !important;
+      }
+
+      &::after {
+        border-bottom: 2px solid $color-dark-blue !important;
+      }
+    }
+
+    &::after {
+      border-color: $color-dark-blue;
+    }
+
+    .MuiInputLabel-root {
+      color: $color-dark-blue !important;
+    }
+  }
+
+  &--no-padding {
+    .MuiInput-input {
+      padding-left: 0px !important;
+    }
+  }
+}
+
+.c-multiple-search-selector {
+  position: relative;
+
+  &__add-keylist {
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    padding: 8px 20px;
+    background: #ff0050;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 100%;
+    cursor: pointer;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__list-container {
+    height: 125px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      border-left: solid 1px #cfcfcf;
+      width: 9px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border: 2.5px solid transparent;
+      background-color: #ff004c;
+      border-radius: 25px;
+      background-clip: content-box;
+    }
+  }  
+
+  &__title {
+    color: #597d99;
+    font-family: 'Museo Sans';
+    font-size: 10px;
+    font-weight: bold;
+    padding: 17px 0 9px 14px;
+    position: relative;
+  }
+
+  &__popper {
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    box-shadow: 0 3px 12px rgba(27, 31, 35, 0.15);
+    border-radius: 3px;
+    width: 290px;
+    font-size: 13px;
+    background-color: white;
+    z-index: 2;
+
+    &--simple {
+      border: 1px solid rgba(27, 31, 35, 0.15);
+      box-shadow: 0 3px 12px rgba(27, 31, 35, 0.15);
+      border-radius: 3px;
+      font-size: 13px;
+      background-color: white;
+      z-index: 2;
+      width: 235px;
+    }
+  }
+
+  &__input-container {
+    padding: 10px 15px 0;
+    width: 100%;
+    position: relative;
+
+    &::after {
+      content: '';
+      background: url($basePath + '/img/icons/search-grey.svg');
+      background-size: cover;
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      bottom: 0;
+      margin: auto;
+      transform: rotate(90deg);
+      z-index: 3;
+    }
+  }
+
+  &__input {
+    padding: 7px;
+    border: none;
+    border-bottom: solid 1px #bdc3d5;
+    width: 100%;
+    font-family: $font-museo-sans;
+    font-size: 13px;
+    font-weight: 500;
+    color: #7f9db6;
+
+    &:focus {
+      border: none;
+      border-bottom: solid 1px #bdc3d5;
+      border-color: $color-primary !important;
+      outline: none;
+    }
+  }
+
+  &__list {
+    height: 405px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      border-left: solid 1px #cfcfcf;
+      width: 9px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border: 2.5px solid transparent;
+      background-color: #ff004c;
+      border-radius: 25px;
+      background-clip: content-box;
+    }
+  }
+
+  &__list-box {
+    min-height: 'auto';
+    align-items: 'flex-start';
+    padding: 0;
+
+    &[aria-selected='true'] {
+      background-color: 'transparent';
+    }
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &__list-item-label {
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5a5a5a;
+
+    &--checked {
+      color: $color-primary;
+    }
+  }
+
+  &__list-item-field {
+    display: flex;
+    align-items: center;
+  }
+
+  &__first-tags {
+    //background: rgba(157, 167, 178, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px 12px 8px;
+
+    .c-select-option-checkbox--checked {
+      padding: 5px 6px;
+      border: solid 1px rgba(157, 167, 178, 0.1);
+      border-radius: 15.5px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #3a4557;
+      background: white;
+      flex-direction: row-reverse;
+      margin-right: 8px;
+      margin-bottom: 5px;
+
+      .c-checkbox--checked {
+        margin-right: 0;
+        margin-left: 2px;
+        top: 1px;
+        border: 0;
+
+        &::after {
+          background: url($basePath + '/img/icons/icon-close.svg');
+          background-size: cover;
+          width: 8px;
+          height: 8px;
+          left: 10px;
+          top: 3px;
+        }
+      }
+    }
+  }
+}
+
+.c-select-option-checkbox {
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  cursor: pointer;
+  align-items: flex-start;
+  position: relative;
+  vertical-align: top;
+  word-break: break-word;
+
+  .c-checkbox {
+    margin-top: 2px;
+  }
+
+  .c-multiple-search-selector__first-tags & {
+    padding: 5px 10px;
+    cursor: pointer;
+    align-items: initial;
+  }
+
+  &__option {
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5a5a5a;
+
+    .c-multiple-search-selector__first-tags & {
+      font-size: 11px;
+    }
+
+    &--checked {
+      color: $color-primary;
+    }
+  }
+
+  &:hover {
+    background: rgba(157, 167, 178, 0.1);
+  }
+
+  &--hovered {
+    background: rgba(157, 167, 178, 0.1);
+  }
+}
+
+.c-no-option {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.c-input-box-tags {
+  &__label {
+    font-family: $font-museo-sans;
+    font-size: 10px;
+    font-weight: bold;
+    color: #7f9db6;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  &--error {
+    @extend .c-input-box-tags__label;
+    color: $color-primary;
+    margin-top: 5px;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    border: solid 1px #bdc3d5;
+    background-blend-mode: multiply;
+    background: rgba(157, 167, 178, 0.1);
+    padding: 5px;
+    max-height: 98px;
+    overflow-y: scroll;
+  }
+
+  &__chip {
+    margin: 5px;
+    background-color: #fff !important;
+    font-family: $font-museo-slab;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a4557;
+    align-items: center;
+  }
+
+  &__close-icon {
+    width: 16px !important;
+    display: flex;
+    height: 16px !important;
+    align-items: center;
+  }
+
+  &__input {
+    margin: 5px;
+    border: none;
+    line-height: 32px;
+    background-color: transparent;
+    flex: 1;
+    outline: none;
+
+    &::placeholder {
+      font-family: $font-museo-slab;
+      font-size: 12px;
+      font-style: italic;
+      color: #a5b0bb;
+    }
+  }
+}
+
+.c-time-picker {
+  .Mui-focused {
+    color: $color-blue !important;
+    border-color: $color-blue !important;
+  }
+}
+
+.c-edit-input {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 4px;
+  border: solid 1px #bdc3d5;
+  background-color: #f6f7f8;
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url($basePath + '/img/icons/edit.svg');
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    right: 27px;
+    margin: auto;
+  }
+
+  &__label {
+    font-family: $font-museo-sans;
+    font-size: 12px;
+    font-weight: bold;
+    color: #597d99;
+  }
+}
+
+.MuiFormHelperText-root.Mui-error {
+  font-family: 'Museo Sans', serif !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  color: $color-primary !important;
+  margin-bottom: 5px !important;
+  display: block !important;
+}

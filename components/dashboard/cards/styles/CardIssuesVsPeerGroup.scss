@@ -1,0 +1,64 @@
+.c-issues-vs-peer-group {
+    width: 100%;
+
+    &__inner-circle {
+
+    }
+
+    &__inner-title {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #9da6b2;
+        font-family: $font-museo-sans;
+        margin: 5px 0;
+        line-height: 120%;
+    }
+
+    &__company {
+        font-size: 18px;
+        color: #3a4557;
+        font-family: $font-museo-slab;
+        line-height: 120%;
+        margin-bottom: 5px;
+    }
+
+    &__logo {
+        max-width: 115px;
+        max-height: 30px;
+        margin-bottom: 5px;
+    }
+
+    &__visibility {
+        font-size: 12px;
+        font-family: $font-museo-sans;
+        color: #a8a8a8;
+        span {
+            color: #3a4557;
+            font-weight: 500;
+        }
+    }
+
+    .highcharts-legend {
+
+        height: 50%;
+        width: 25%;
+
+        & > div, & > div > div {
+            position: relative !important;
+        }
+    }
+
+    .highcharts-legend-item {
+        display: inline-block;
+        width: 50%;
+        top: auto !important;
+        position: relative !important;
+        left: auto !important;
+        margin: 15px 0;
+
+        & > span {
+            width: calc(100% - 10px) !important;
+            padding-right: 10px;
+        }
+    }
+}

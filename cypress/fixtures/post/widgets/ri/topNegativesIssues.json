@@ -1,0 +1,42 @@
+[
+  {
+    "volume": 55,
+    "issueTagId": 4428,
+    "sentimentScore": -0.51,
+    "rank": 1,
+    "impactScore": 2.08,
+    "issueTag": "Corporate Compliance"
+  },
+  {
+    "volume": 71,
+    "issueTagId": 4198,
+    "sentimentScore": -0.47,
+    "rank": 2,
+    "impactScore": 1.91,
+    "issueTag": "Public Service Policy"
+  },
+  {
+    "volume": 16,
+    "issueTagId": 4819,
+    "sentimentScore": -0.43,
+    "rank": 3,
+    "impactScore": 1.76,
+    "issueTag": "Human Rights"
+  },
+  {
+    "volume": 24,
+    "issueTagId": 4783,
+    "sentimentScore": -0.41,
+    "rank": 4,
+    "impactScore": 1.66,
+    "issueTag": "Industrial Action"
+  },
+  {
+    "volume": 71,
+    "issueTagId": 4390,
+    "sentimentScore": -0.38,
+    "rank": 5,
+    "impactScore": 1.54,
+    "issueTag": "DoJ Investigations"
+  }
+]

@@ -1,0 +1,101 @@
+@use 'sass:math' as *;
+
+$baseSize: 16px;
+$baseSizeN: 16;
+$resize-percentage-lg: 0.8;
+
+$transitions-timing: 600ms ease;
+$transitions-hover-timing: 300ms ease;
+
+/* --------------------------------- SIZES ---------------------------------- */
+$alva-size-base: 0.25rem;
+$alva-size-base-ch: 0.25ch;
+$alva-size-base-ex: 0.25ex;
+// REM
+$alva-size-1: $alva-size-base;
+$alva-size-2: $alva-size-base * 2;
+$alva-size-3: $alva-size-base * 3;
+$alva-size-4: $alva-size-base * 4;
+$alva-size-5: $alva-size-base * 5;
+$alva-size-6: $alva-size-base * 6;
+$alva-size-7: $alva-size-base * 7;
+$alva-size-8: $alva-size-base * 8;
+$alva-size-9: $alva-size-base * 9;
+$alva-size-10: $alva-size-base * 10;
+$alva-size-11: $alva-size-base * 11;
+$alva-size-12: $alva-size-base * 12;
+// CH
+$alva-size-1-ch: $alva-size-base-ch;
+$alva-size-2-ch: $alva-size-base-ch * 2;
+$alva-size-3-ch: $alva-size-base-ch * 3;
+$alva-size-4-ch: $alva-size-base-ch * 4;
+$alva-size-5-ch: $alva-size-base-ch * 5;
+$alva-size-6-ch: $alva-size-base-ch * 6;
+$alva-size-8-ch: $alva-size-base-ch * 8;
+// EX
+$alva-size-1-ex: $alva-size-base-ex;
+$alva-size-2-ex: $alva-size-base-ex * 2;
+$alva-size-3-ex: $alva-size-base-ex * 3;
+$alva-size-4-ex: $alva-size-base-ex * 4;
+$alva-size-5-ex: $alva-size-base-ex * 5;
+$alva-size-6-ex: $alva-size-base-ex * 6;
+
+/* --------------------------------- TYPE SCALE ------------------------------*/
+$alva-type-scale-base: 1rem;
+$alva-type-scale-ratio: 1.125;
+$alva-type-scale-xs: div($alva-type-scale-base, $alva-type-scale-ratio);
+$alva-type-scale-2xs: div($alva-type-scale-xs, $alva-type-scale-ratio);
+$alva-type-scale-3xs: div($alva-type-scale-2xs, $alva-type-scale-ratio);
+$alva-type-scale-sm: div($alva-type-scale-xs, $alva-type-scale-ratio);
+$alva-type-scale-base: div($alva-type-scale-sm, $alva-type-scale-ratio);
+$alva-type-scale-lg: div($alva-type-scale-base, $alva-type-scale-ratio);
+$alva-type-scale-xl: div($alva-type-scale-lg, $alva-type-scale-ratio);
+$alva-type-scale-2xl: div($alva-type-scale-xl, $alva-type-scale-ratio);
+$alva-type-scale-3xl: div($alva-type-scale-2xl, $alva-type-scale-ratio);
+
+/* --------------------------------- COLORS --------------------------------- */
+$alva-color-white: white;
+$alva-color-gray-1: #f1f3f5;
+$color-primary: #ff0050;
+$color-primary-transparent: #ff00511e;
+$color-secondary: #000000;
+$color-blue: #2d6ea3;
+$color-text: #597d99;
+$color-dark-blue: #3a4557;
+$color-light-blue: #7f9db6;
+$color-green: #00e3a1;
+$color-transparent-black: #00000040;
+$color-dark-blue: #121f2a;
+$color-grey: #5a646f;
+$color-red: #ff004c;
+
+$shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+
+/* ---------------------------------- FONTS --------------------------------- */
+$font-museo-sans: 'Museo Sans', serif;
+$font-museo-slab: 'Museo Slab', sans-serif;
+
+/* ---------------------------------- PATHS --------------------------------- */
+
+$img_folder: '../images/';
+$fonts_folder: '../fonts/';
+
+$vw-default: 1290;
+$max-size: #{$vw-default}px;
+
+/* ------------------------------- BREAKPOINTS ------------------------------ */
+
+$max-xl: 1500px;
+$min-xl: 1200px;
+$max-lg: 1199px;
+$min-lg: 992px;
+$max-md: 991px;
+$min-md: 768px;
+$max-sm: 767px;
+$min-sm: 576px;
+$max-xs: 575px;
+$min-xs: 480px;
+
+$breakpoints: (
+  feed-desktop: 970px,
+) !default;

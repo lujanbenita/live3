@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "username": "testuser@alva.com",
+  "firstName": "Test",
+  "lastName": "User",
+  "roleId": 128,
+  "timeZone": "Europe/Madrid",
+  "nlaUsername": "editorial@alva-group.com",
+  "nlaPassword": "editorial",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2NDgiLCJpYXQiOjE2MzUxNDQ5MjAsImV4cCI6MTYzNTIzMTMyMH0.3CHuw0uhZPU7HPQ7tBLvcsfnW-uGqxoW5Saboe_fm4c",
+  "jsonData": "{\"searchObject\":{\"tags\":[{\"tagId\":2691,\"tagName\":\"Nintendo\",\"tagTypeName\":\"Company\"}],\"dateRange\":\"7D\",\"filterValues\":[],\"selectedTag\":null,\"page\":1,\"rowsPerPage\":30,\"country\":[{\"isoCode\":\"WW\",\"country\":\"World Wide\"}],\"workspaceId\":3276,\"workspaceName\":\"test daniel3\",\"owner\":\"dssd Fernandez\",\"lastUpdate\":\"2021-06-01T15:02:43Z\",\"circulation\":[0,150]},\"tutorial\":{\"dashboard\":true,\"searchActions\":false,\"focusTag\":false,\"exportChart\":false,\"article\":false}}",
+  "liveAccess": "live2,live3"
+}

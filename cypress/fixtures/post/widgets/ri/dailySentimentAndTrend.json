@@ -1,0 +1,23 @@
+[
+  {
+    "date": 1641254400000,
+    "name": "Tesco",
+    "sentimentScore": 27.17,
+    "sentimentTrend": 8.42,
+    "tagId": 580
+  },
+  {
+    "date": 1641340800000,
+    "name": "Tesco",
+    "sentimentScore": 32.62,
+    "sentimentTrend": 9.07,
+    "tagId": 580
+  },
+  {
+    "date": 1641427200000,
+    "name": "Tesco",
+    "sentimentScore": 11.52,
+    "sentimentTrend": 9.19,
+    "tagId": 580
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "workspaceId": 3567,
+  "workspaceName": "cypress testing jWP",
+  "tags": [
+    {
+      "tagId": 4277,
+      "tagName": "ABPI Membership"
+    },
+    {
+      "tagId": 3331,
+      "tagName": "AGMs"
+    },
+    {
+      "tagId": 4505,
+      "tagName": "AIFMD"
+    }
+  ],
+  "selectedTag": {
+    "tagId": 4277,
+    "tagName": "ABPI Membership"
+  },
+  "filterValues": [],
+  "dateRange": "7D",
+  "owner": "David Fernandez",
+  "lastUpdate": "2021-11-19T07:45:32Z"
+}

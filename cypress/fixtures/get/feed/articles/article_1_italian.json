@@ -1,0 +1,57 @@
+{
+  "loadDate": "2021-10-25",
+  "publishDateTime": "2021-10-25T10:29:08.641057",
+  "articleId": 6546249491,
+  "author": "uncredited",
+  "authorImageURL": null,
+  "publication": "Socialnews.xyz",
+  "isoLanguageCode": "it",
+  "circulationSize": 260129,
+  "retweetCount": 0,
+  "favouriteCount": 0,
+  "countryCode": "us",
+  "countryName": "United States",
+  "region": "North America",
+  "truncHeadline": null,
+  "headline": "‘Il gioco GTA Trilogy: The Definitive Edition uscirà l'11 novembre",
+  "body": "ITALIAN TRANSLATION - San Francisco, 25 ottobre (SocialNews.XYZ) La società di giochi Rockstar Games ha rivelato che 'Grand Theft Auto: The Trilogy - The Definitive Edition verrà lanciato l'11 novembre per PlayStation 4, PlayStation 5, Xbox One, Xbox Series e Nintendo Switch'. Il gioco sarà una versione digitale e la versione fisica della 'The Definitive Edition' sarà rilasciata il 7 dicembre, riporta GizmoChina. La società ha precedentemente affermato che prevede anche il lancio su dispositivi mobili più avanti nel 2022. I giochi Rockstar hanno condiviso una breve clip del gioco della trilogia GTA su YouTube. Sembra che la grafica del gioco sia più moderna rispetto a quella originale. I giocatori PS5 e Xbox X possono giocare in 4K a 60 frame al secondo. La versione per Nintendo Switch presenterà controlli specifici per l'interruttore come il rilevamento del giroscopio, lo zoom e la panoramica della fotocamera touchscreen e la selezione del menu, mentre la versione per PC include il supporto per il chipset Nvidia DLSS. Secondo Rockstar, 'The Definitive Edition' fornirà nuovi controlli moderni ispirati a GTA V e miglioramenti visivi generali, come aggiornamenti della risoluzione e un sistema di illuminazione ricostruito. A partire dall'11 novembre, gli abbonati a Xbox Game Pass potranno giocare a 'Grand Theft Auto: San Andreas - The Definitive Edition'. I giocatori potranno giocare a 'GTA III: The Definitive Edition' su PlayStation a partire dal 7 dicembre. Fonte: IANS Mi piace Caricamento...",
+  "articleUrl": "https://www.socialnews.xyz/2021/10/25/gta-trilogy-the-definitive-edition-game-to-release-on-nov-11/",
+  "feed": "opoint",
+  "sourceFeed": "trade-web",
+  "sourceType": "Trade News",
+  "channel": "Web",
+  "page": null,
+  "licenceName": null,
+  "tags": [
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "tagTypeName": "Company",
+      "sentimentScore": 15,
+      "weight": 21.26666666666667,
+      "firstMentionText": "San Francisco, Oct 25 (SocialNews.XYZ) Gaming company Rockstar Games has revealed that 'Grand Theft Auto: The Trilogy - The Definitive Edition will launch on November 11 for PlayStation 4, PlayStation 5, Xbox One, Xbox Series and Nintendo Switch"
+    },
+    {
+      "tagId": 8299,
+      "tagName": "NVIDIA",
+      "tagTypeName": "Company",
+      "sentimentScore": 33,
+      "weight": 9.533333333333335,
+      "firstMentionText": "The Nintendo Switch version will feature switch-specific controls such as gyro tracking, zoom and pan of the touchscreen camera and menu selection, while the PC version includes support for Nvidia DLSS chipset"
+    },
+    {
+      "tagId": 5425,
+      "tagName": "Investors",
+      "tagTypeName": "Stakeholder",
+      "sentimentScore": 13,
+      "weight": 4.4,
+      "firstMentionText": null
+    }
+  ],
+  "customTags": null,
+  "sentimentScore": null,
+  "twitterImagePath": null,
+  "smallImagePath": "source_types/default_sml.jpg",
+  "largeImagePath": "source_types/default_lrg.jpg",
+  "bannerImagePath": "source_types/default_banner.jpg"
+}

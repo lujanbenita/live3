@@ -1,0 +1,435 @@
+.c-navbar {
+  width: 100%;
+  display: flex;
+  height: 70px;
+  align-items: center;
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__logo {
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-transparent-black;
+    height: 100%;
+    cursor: pointer;
+
+    img {
+      width: 30px;
+    }
+  }
+
+  &__avatar-container {
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: $color-transparent-black;
+  }
+
+  &--simple {
+    justify-content: space-between;
+  }
+
+  &--disabled {
+    a {
+      cursor: not-allowed;
+    }
+  }
+
+  &__title {
+    width: calc(100% - 30px);
+    text-align: left;
+    font-family: $font-museo-slab;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 600px) {
+    height: 55px;
+
+    &__title {
+      font-size: 18px;
+      margin-left: 20px;
+    }
+
+    &__logo {
+      min-width: 55px;
+    }
+
+    &__avatar-container {
+      padding: 0 20px;
+    }
+  }
+}
+
+.c-navbar-tab {
+  position: relative;
+  background-color: $color-transparent-black;
+  width: 20%;
+  padding-left: 60px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+
+  a {
+    color: white;
+    font-family: $font-museo-slab;
+    font-size: 14px;
+
+    &:hover,
+    &:focus {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &--media-intelligence {
+    &::before {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 20px;
+      top: 0;
+      margin: auto;
+      bottom: 0;
+      background: url($basePath + '/img/icons/navbar/media-intelligence.svg');
+      background-size: cover;
+    }
+  }
+
+  &--reputation-intelligence {
+    @extend .c-navbar-tab--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/reputation-intelligence.svg');
+      background-size: cover;
+    }
+  }
+
+  &--esg-intelligence {
+    @extend .c-navbar-tab--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/esg-intelligence.svg');
+      background-size: cover;
+    }
+  }
+
+  &--risk-intelligence {
+    @extend .c-navbar-tab--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/risk-intelligence.svg');
+      background-size: cover;
+    }
+  }
+
+  &--board-intelligence {
+    @extend .c-navbar-tab--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/board-intelligence.svg');
+      background-size: cover;
+    }
+  }
+
+  &--active {
+    background: transparent;
+    opacity: 1;
+    border-right: none;
+  }
+}
+
+.c-navbar-selector {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: $color-transparent-black;
+
+  &__paper {
+    margin-top: 10px !important;
+  }
+  &__listbox {
+    padding: 0px !important;
+
+    &:before{ 
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top: 3px !important;
+      background: white;
+      border-radius: 3px;
+      transform: rotate(45deg);
+      z-index: -1;
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+
+  &__autocomplete {
+    margin: auto 20px;
+    width: calc(100% - 40px);
+  }
+
+  &__value-container {
+    width: fit-content;
+    min-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__value {
+    font-size: 16px;
+    color: white;
+  }
+
+  &--media-intelligence {
+    position: relative;
+    padding: 0 15px 0 25px;
+    @extend .c-navbar-tab--media-intelligence;
+    cursor: pointer;
+
+    &::before {
+      left: -10px !important;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: url($basePath + '/img/icons/dropdown-white.svg');
+      background-size: cover;
+      top: 0;
+      bottom: 0;
+      right: -10px;
+      margin: auto;
+      transform: rotate(90deg);
+    }
+  }
+
+  @media (max-width: 450px) {
+    height: 55px;
+
+    &__autocomplete {
+      margin: auto 0;
+      padding: 5px 0;
+    }
+
+    &__value-container {
+      min-width: unset;
+    }
+  }
+
+  &--reputation-intelligence {
+    @extend .c-navbar-selector--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/reputation-intelligence.svg');
+      background-size: cover;
+    }
+  }
+
+  &--esg-intelligence {
+    @extend .c-navbar-selector--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/esg-intelligence.svg');
+      background-size: cover;
+    }
+  }
+
+  &--risk-intelligence {
+    @extend .c-navbar-selector--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/risk-intelligence.svg');
+      background-size: cover;
+    }
+  }
+
+  &--board-intelligence {
+    @extend .c-navbar-selector--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/variant/board-intelligence-blue.svg');
+      background-size: cover;
+    }
+  }
+
+  &--media-intelligence-blue {
+    position: relative;
+    padding-left: 25px;
+    @extend .c-navbar-tab--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/variant/media-intelligence-blue.svg');
+      background-size: cover;
+      left: -10px !important;
+    }
+  }
+
+  &--reputation-intelligence-blue {
+    @extend .c-navbar-selector--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/variant/reputation-intelligence-blue.svg');
+      background-size: cover;
+    }
+  }
+
+  &--esg-intelligence-blue {
+    @extend .c-navbar-selector--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/variant/esg-intelligence-blue.svg');
+      background-size: cover;
+    }
+  }
+
+  &--risk-intelligence-blue {
+    @extend .c-navbar-selector--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/variant/risk-intelligence-blue.svg');
+      background-size: cover;
+    }
+  }
+
+  &--board-intelligence-blue {
+    @extend .c-navbar-selector--media-intelligence;
+
+    &::before {
+      background: url($basePath + '/img/icons/navbar/variant/board-intelligence-blue.svg');
+      background-size: cover;
+    }
+  }
+}
+
+.c-avatar {
+  &__avatar {
+    border: 2px solid #fff;
+  }
+
+  @media (max-width: 600px) {
+    &__avatar {
+      width: 40px !important;
+      height: 40px !important;
+      margin-right: 0 !important;
+    }
+  }
+
+  &__menu {
+
+    &.MuiPopover-root {
+      position: absolute !important;
+    }
+
+    .MuiMenu-paper {
+      top: 70px !important;
+      overflow: visible !important;
+
+      &::before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: -6px;
+        background: white;
+        border-radius: 3px;
+        transform: rotate(45deg);
+        right: 16px;
+      }
+    }
+
+    .MuiMenu-list {
+      padding: 0 !important;
+    }
+  }
+
+  &__my-account-item {
+    padding-top: 12px !important;
+    padding-bottom: 10px !important;
+    padding-left: 35px !important;
+    position: relative;
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #597d99;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      background: url($basePath + '/img/icons/user-blue.svg');
+      background-size: cover !important;
+      top: 0;
+      bottom: 0;
+      left: 1px;
+      margin: auto;
+      z-index: 999;
+    }
+  }
+
+  &__logout-item {
+    @extend .c-avatar__my-account-item;
+    padding-top: 10px !important;
+    padding-bottom: 12px !important;
+    padding-left: 35px !important;
+
+    &::before {
+      width: 25px;
+      height: 23px;
+      left: 7px;
+      background: url($basePath + '/img/icons/logout.svg');
+      background-size: cover !important;
+    }
+  }
+
+  &__alva-2 {
+    @extend .c-avatar__my-account-item;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    a {
+      padding-top: 10px !important;
+      padding-bottom: 12px !important;
+      padding-left: 35px !important;
+      padding-right: 16px !important;
+    }
+
+    &::before {
+      width: 22px;
+      height: 20px;
+      left: 7px;
+      background: url($basePath + '/img/alva-iso-blue.svg');
+      background-size: cover !important;
+      pointer-events: none;
+    }
+
+    &-link,
+    &-link:hover,
+    &-link:focus,
+    &-link:active,
+    &-link:visited {
+      color: black !important;
+    }
+  }
+}

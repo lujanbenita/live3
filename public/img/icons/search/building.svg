@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <filter id="l5wa7p4c2a" width="118%" height="161.4%" x="-9%" y="-30.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="11" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.115056818 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="omrldzhtfb">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.296907 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="nqkmgtigwc" d="M21.6 6C22.926 6 24 7.074 24 8.4v14.4c0 1.326-1.074 2.4-2.4 2.4H10.4c-1.326 0-2.4-1.074-2.4-2.4V8.4C8 7.074 9.074 6 10.4 6zm0 1.6H10.4c-.442 0-.8.358-.8.8v14.4c0 .442.358.8.8.8l4.707.001c-.066-.274-.107-.666-.107-1.101 0-.828.15-1.5.333-1.5h1.334c.184 0 .333.672.333 1.5-.048.485-.1.852-.153 1.102L21.6 23.6c.442 0 .8-.358.8-.8V8.4c0-.442-.358-.8-.8-.8zm-7.8 10c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L12 18.4c0-.442.09-.8.2-.8h1.6zm3 0c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L15 18.4c0-.442.09-.8.2-.8h1.6zm3 0c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L18 18.4c0-.442.09-.8.2-.8h1.6zm-6-3.2c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L12 15.2c0-.442.09-.8.2-.8h1.6zm3 0c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L15 15.2c0-.442.09-.8.2-.8h1.6zm3 0c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L18 15.2c0-.442.09-.8.2-.8h1.6zm-6-3.2c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L12 12c0-.442.09-.8.2-.8h1.6zm3 0c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L15 12c0-.442.09-.8.2-.8h1.6zm3 0c.11 0 .2.358.2.8 0 .442-.09.8-.2.8h-1.6c-.1 0-.182-.29-.197-.67L18 12c0-.442.09-.8.2-.8h1.6z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#l5wa7p4c2a)" transform="translate(-79 -202) translate(71 148)">
+                <g filter="url(#omrldzhtfb)" transform="translate(8 48)">
+                    <g transform="translate(0 6)">
+                        <mask id="aghwliizqd" fill="#fff">
+                            <use xlink:href="#nqkmgtigwc"/>
+                        </mask>
+                        <use fill="#000" fill-rule="nonzero" xlink:href="#nqkmgtigwc"/>
+                        <g fill="#FF004C" mask="url(#aghwliizqd)">
+                            <path d="M0 0H32V32H0z" transform="translate(1)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

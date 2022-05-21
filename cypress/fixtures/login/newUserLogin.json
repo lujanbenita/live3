@@ -1,0 +1,13 @@
+{
+  "id": 648,
+  "username": "d.fernandez@proun.es",
+  "firstName": "David",
+  "lastName": "Fernandez",
+  "roleId": 128,
+  "timeZone": "",
+  "nlaUsername": "editorial2@alva-group.com",
+  "nlaPassword": "editorial",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2NDgiLCJpYXQiOjE2MzUxNDQ5MjAsImV4cCI6MTYzNTIzMTMyMH0.3CHuw0uhZPU7HPQ7tBLvcsfnW-uGqxoW5Saboe_fm4c",
+  "jsonData": null,
+  "liveAccess": "live3"
+}

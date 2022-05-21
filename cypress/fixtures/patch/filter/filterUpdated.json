@@ -1,0 +1,15 @@
+{
+  "statusMessage": "Filter updated successfully for filter id:2139",
+  "statusCode": "200",
+  "description": "",
+  "data": {
+    "filterId": 2139,
+    "filterName": "test keylist 1",
+    "filterParameterCount": 2,
+    "lastUpdateAt": "2021-12-05T17:16:49.002396",
+    "filterParameters": [
+      { "filterParameterId": 1204350, "filterParameterValue": "Pippinx45" },
+      { "filterParameterId": 1204348, "filterParameterValue": "17_mano" }
+    ]
+  }
+}

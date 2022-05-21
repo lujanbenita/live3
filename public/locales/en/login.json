@@ -1,0 +1,16 @@
+{
+  "pageTitle": "Welcome to",
+  "userLabel": "Your Email Address",
+  "passwordLabel": "Your User Password",
+  "rememberMe": "Remember me",
+  "loginBtn": "Access",
+  "passForgot": "Forgot your password",
+  "pageTitleRecovery": "Password Recovery",
+  "helpTextRecovery": "Introduce your mail address. We'll send you instructions to create a new password shortly.",
+  "mailLabelRecovery": "Your Email Address",
+  "sendBtn": "Send",
+  "backToLogin": "Back to login",
+  "pageTitleReset": "New Password",
+  "newPasswordReset": "New Password",
+  "confirmNewPasswordReset": "Confirm new Password"
+}

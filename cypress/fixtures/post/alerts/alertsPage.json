@@ -1,0 +1,90 @@
+{
+  "total": 7,
+  "results": [
+    {
+      "alertId": 690,
+      "alertName": "Samsun + nintendo test alert",
+      "alertType": "Daily",
+      "alertEnabled": true,
+      "alertSubject": "samsung + nintendo",
+      "createDateTime": "2021-06-16 10:35:47",
+      "alertReceiversCount": 2,
+      "alertReceivers": [
+        "ll.pitarch@proun.es",
+        "d.fernandez@proun.es"
+      ]
+    },
+    {
+      "alertId": 829,
+      "alertName": "test alert 435",
+      "alertType": "Pulse",
+      "alertEnabled": true,
+      "alertSubject": "test alerta 3",
+      "createDateTime": "2021-11-10 10:53:02",
+      "alertReceiversCount": 1,
+      "alertReceivers": [
+        "d.fernandez@proun.es"
+      ]
+    },
+    {
+      "alertId": 830,
+      "alertName": "test alert 4",
+      "alertType": "Pulse",
+      "alertEnabled": true,
+      "alertSubject": "test alerta 4",
+      "createDateTime": "2021-11-10 10:53:42",
+      "alertReceiversCount": 1,
+      "alertReceivers": [
+        "d.fernandez@proun.es"
+      ]
+    },
+    {
+      "alertId": 832,
+      "alertName": "test alert 5",
+      "alertType": "Pulse",
+      "alertEnabled": true,
+      "alertSubject": "test alerta 3",
+      "createDateTime": "2021-11-10 10:54:39",
+      "alertReceiversCount": 1,
+      "alertReceivers": [
+        "d.fernandez@proun.es"
+      ]
+    },
+    {
+      "alertId": 833,
+      "alertName": "Alert Carlos",
+      "alertType": "Pulse",
+      "alertEnabled": true,
+      "alertSubject": "test@test.com",
+      "createDateTime": "2021-11-10 14:52:33",
+      "alertReceiversCount": 1,
+      "alertReceivers": [
+        "test@test.com"
+      ]
+    },
+    {
+      "alertId": 836,
+      "alertName": "My cypress testing",
+      "alertType": "Daily",
+      "alertEnabled": true,
+      "alertSubject": "My subject email cypress testing",
+      "createDateTime": "2021-11-11 08:34:52",
+      "alertReceiversCount": 1,
+      "alertReceivers": [
+        "cypress@cypress.cy"
+      ]
+    },
+    {
+      "alertId": 857,
+      "alertName": "pepo",
+      "alertType": "Pulse",
+      "alertEnabled": true,
+      "alertSubject": "test@test.com",
+      "createDateTime": "2021-11-15 07:28:33",
+      "alertReceiversCount": 1,
+      "alertReceivers": [
+        "test@test.com"
+      ]
+    }
+  ]
+}

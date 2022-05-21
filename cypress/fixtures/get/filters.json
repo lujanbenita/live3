@@ -1,0 +1,76 @@
+{
+    "filters": [
+      {
+        "filterId": 886,
+        "filterName": "cypress testing",
+        "filterParameterCount": 1,
+        "lastUpdateAt": "2021-10-21T14:33:01.363375",
+        "filterParameters": null
+      },
+      {
+        "filterId": 775,
+        "filterName": "Proun Test 17",
+        "filterParameterCount": 3,
+        "lastUpdateAt": "2021-10-18T13:01:14.386398",
+        "filterParameters": null
+      },
+      {
+        "filterId": 832,
+        "filterName": "Music Publications ",
+        "filterParameterCount": 6,
+        "lastUpdateAt": "2021-10-15T12:09:18.152111",
+        "filterParameters": null
+      },
+      {
+        "filterId": 785,
+        "filterName": "Proun Test 27",
+        "filterParameterCount": 3,
+        "lastUpdateAt": "2021-06-23T10:46:25.341143",
+        "filterParameters": null
+      },
+      {
+        "filterId": 784,
+        "filterName": "Proun Test 26",
+        "filterParameterCount": 2,
+        "lastUpdateAt": "2021-06-23T10:46:21.823254",
+        "filterParameters": null
+      },
+      {
+        "filterId": 783,
+        "filterName": "Proun Test 25",
+        "filterParameterCount": 2,
+        "lastUpdateAt": "2021-06-23T10:46:18.324730",
+        "filterParameters": null
+      },
+      {
+        "filterId": 782,
+        "filterName": "Proun Test 24",
+        "filterParameterCount": 2,
+        "lastUpdateAt": "2021-06-23T10:46:15.368374",
+        "filterParameters": null
+      },
+      {
+        "filterId": 781,
+        "filterName": "Proun Test 23",
+        "filterParameterCount": 2,
+        "lastUpdateAt": "2021-06-23T10:46:11.870332",
+        "filterParameters": null
+      },
+      {
+        "filterId": 780,
+        "filterName": "Proun Test 22",
+        "filterParameterCount": 2,
+        "lastUpdateAt": "2021-06-23T10:46:08.756296",
+        "filterParameters": null
+      },
+      {
+        "filterId": 779,
+        "filterName": "Proun Test 21",
+        "filterParameterCount": 2,
+        "lastUpdateAt": "2021-06-23T10:46:04.248586",
+        "filterParameters": null
+      }
+    ],
+    "count": 30
+  }
+  

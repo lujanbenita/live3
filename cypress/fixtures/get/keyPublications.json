@@ -1,0 +1,180 @@
+{
+  "filters": [
+    {
+      "filterId": 906,
+      "filterName": "cypress testing",
+      "filterParameterCount": 1,
+      "lastUpdateAt": "2021-11-16T12:11:57.419280",
+      "filterParameters": null
+    },
+    {
+      "filterId": 886,
+      "filterName": "cypress testing to delete",
+      "filterParameterCount": 1,
+      "lastUpdateAt": "2021-10-21T14:33:01.363375",
+      "filterParameters": null
+    },
+    {
+      "filterId": 775,
+      "filterName": "Proun Test 17",
+      "filterParameterCount": 3,
+      "lastUpdateAt": "2021-10-18T13:01:14.386398",
+      "filterParameters": null
+    },
+    {
+      "filterId": 832,
+      "filterName": "Music Publications ",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-10-15T12:09:18.152111",
+      "filterParameters": null
+    },
+    {
+      "filterId": 785,
+      "filterName": "Proun Test 27",
+      "filterParameterCount": 3,
+      "lastUpdateAt": "2021-06-23T10:46:25.341143",
+      "filterParameters": null
+    },
+    {
+      "filterId": 784,
+      "filterName": "Proun Test 26",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:46:21.823254",
+      "filterParameters": null
+    },
+    {
+      "filterId": 783,
+      "filterName": "Proun Test 25",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:46:18.324730",
+      "filterParameters": null
+    },
+    {
+      "filterId": 782,
+      "filterName": "Proun Test 24",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:46:15.368374",
+      "filterParameters": null
+    },
+    {
+      "filterId": 781,
+      "filterName": "Proun Test 23",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:46:11.870332",
+      "filterParameters": null
+    },
+    {
+      "filterId": 780,
+      "filterName": "Proun Test 22",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:46:08.756296",
+      "filterParameters": null
+    },
+    {
+      "filterId": 779,
+      "filterName": "Proun Test 21",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:46:04.248586",
+      "filterParameters": null
+    },
+    {
+      "filterId": 778,
+      "filterName": "Proun Test 20",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:46:01.126546",
+      "filterParameters": null
+    },
+    {
+      "filterId": 777,
+      "filterName": "Proun Test 19",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:56.053678",
+      "filterParameters": null
+    },
+    {
+      "filterId": 776,
+      "filterName": "Proun Test 18",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:51.952781",
+      "filterParameters": null
+    },
+    {
+      "filterId": 774,
+      "filterName": "Proun Test 16",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:44.990780",
+      "filterParameters": null
+    },
+    {
+      "filterId": 773,
+      "filterName": "Proun Test 15",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:40.628493",
+      "filterParameters": null
+    },
+    {
+      "filterId": 772,
+      "filterName": "Proun Test 14",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:36.090771",
+      "filterParameters": null
+    },
+    {
+      "filterId": 771,
+      "filterName": "Proun Test 13",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:31.324686",
+      "filterParameters": null
+    },
+    {
+      "filterId": 770,
+      "filterName": "Proun Test 12",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:27.638679",
+      "filterParameters": null
+    },
+    {
+      "filterId": 769,
+      "filterName": "Proun Test 11",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:24.269127",
+      "filterParameters": null
+    },
+    {
+      "filterId": 768,
+      "filterName": "Proun Test 10",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:21.076643",
+      "filterParameters": null
+    },
+    {
+      "filterId": 767,
+      "filterName": "Proun Test 9",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:17.195036",
+      "filterParameters": null
+    },
+    {
+      "filterId": 766,
+      "filterName": "Proun Test 8",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:45:04.881710",
+      "filterParameters": null
+    },
+    {
+      "filterId": 765,
+      "filterName": "Proun Test 7",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:44:59.068798",
+      "filterParameters": null
+    },
+    {
+      "filterId": 764,
+      "filterName": "Proun Test 6",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-23T10:44:54.285053",
+      "filterParameters": null
+    }
+  ],
+  "count": 31
+}

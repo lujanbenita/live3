@@ -1,0 +1,15 @@
+{
+  "total": 1,
+  "results": [
+    {
+      "alertId": 699,
+      "alertName": "Neptune test alert",
+      "alertType": "Daily",
+      "alertEnabled": true,
+      "alertSubject": "test",
+      "createDateTime": "2021-06-23 14:14:59",
+      "alertReceiversCount": 1,
+      "alertReceivers": ["test@test.com"]
+    }
+  ]
+}

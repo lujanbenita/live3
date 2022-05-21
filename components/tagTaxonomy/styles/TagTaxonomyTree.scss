@@ -1,0 +1,82 @@
+.c-tag-taxonomy-tree {
+    background: transparent;
+    border: none;
+
+    &__label {
+        font-family: $font-museo-sans;
+        font-size: 12px;
+        font-weight: bold;
+        color: #3a4557;
+    }
+
+    &__leaf-wrapper {
+        width: calc(100% - 20px);
+        display: inline-block;
+        height: 32px;
+        line-height: 32px;
+        vertical-align: middle;        
+        margin-left: 20px;
+        padding-left: 15px;
+        position: relative;
+        &:hover {
+            background-color: white;            
+            .c-tag-taxonomy-tree__add-icon {
+                visibility: visible;
+            }
+        }        
+    }
+
+    &__add-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow: hidden;  
+        height: 32px;
+        width: 32px;
+        visibility: hidden;
+    }
+
+    .p-tree {
+        border: none;
+        background: transparent;
+    }
+
+    .p-treenode-icon {
+        color: #ff004c !important;
+    }
+
+    .p-tree-toggler {
+        margin-right: 0px !important;
+        &:hover, &:focus, &:active {
+            background: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+    }
+
+    .p-tree-toggler-icon {
+        color: #ff004c !important;
+        font-size: 12px; 
+    }
+
+    .p-treenode-content:hover {
+        cursor: default;
+    }
+
+    .p-treenode-leaf .p-treenode-content:hover {
+        cursor: pointer;
+    }
+
+    .p-treenode-leaf .p-treenode-content {
+        display: inline-block;
+        width: 100%;
+
+        .p-tree-toggler {
+            display: none;
+        }
+    }
+
+    .p-treenode {
+        position: relative;
+    }
+}

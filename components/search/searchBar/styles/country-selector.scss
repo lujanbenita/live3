@@ -1,0 +1,240 @@
+.c-country-selector {
+  &__input {
+    position: relative;
+    padding: 0 10px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    cursor: pointer;
+    margin: 6px 0;
+
+    @media (min-width: 790px) {
+      display: block;
+      padding: 0 20px;
+      min-width: 84px;
+    }
+
+    &::after {
+      content: '';
+      background: url($basePath + '/img/icons/dropdown-blue.svg');
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      transform: rotate(90deg);
+      display: none;
+
+      @media (min-width: 790px) {
+        display: block;
+      }
+    }
+  }
+
+  &__input-flag-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__more-counter {
+    font-family: $font-museo-slab;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a4557;
+    margin-left: 5px;
+  }
+
+  &__button {
+    font-size: 13px;
+    width: 100%;
+    text-align: 'left';
+    padding-bottom: 8px;
+    color: #586069;
+    font-weight: 600;
+
+    &:hover,
+    &:focus {
+      color: #0366d6;
+    }
+
+    span {
+      width: 100%;
+    }
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__popper {
+    border: '1px solid rgba(27,31,35,.15)';
+    box-shadow: '0 3px 12px rgba(27,31,35,.15)';
+    border-radius: 3px;
+    width: 290px;
+    z-index: 10px;
+    font-size: 13px;
+    background-color: white;
+    z-index: 2;
+  }
+
+  &__input-base {
+    padding: 10px 15px 0;
+    width: 100%;
+
+    input {
+      padding: 7px;
+      width: 100%;
+      border-bottom: solid 1px #bdc3d5;
+      position: relative;
+      font-family: $font-museo-sans;
+      font-size: 13px;
+      font-weight: 500;
+      color: #7f9db6;
+
+      &:focus {
+        border-color: $color-primary;
+      }
+    }
+
+    &::after {
+      content: '';
+      background: url($basePath + '/img/icons/search-grey.svg');
+      background-size: cover;
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 10px;
+      margin: auto;
+      transform: rotate(90deg);
+      z-index: 10;
+    }
+  }
+
+  &__option {
+    padding: 15px 16px !important;
+  }
+
+  &__checkbox {
+    &-color-secondary {
+      color: white !important;
+    }
+
+    &-color-primary {
+      fill: red !important;
+    }
+  }
+
+  &__paper {
+    box-shadow: none;
+    margin: 0 !important;
+    color: #586069;
+    font-size: 13px;
+  }
+
+  &__list-box {
+    min-height: 'auto';
+    align-items: 'flex-start';
+    padding: 0;
+
+    &[aria-selected='true'] {
+      background-color: 'transparent';
+    }
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &__list-item-label {
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5a5a5a;
+
+    &--checked {
+      color: $color-primary;
+    }
+  }
+
+  &__list-item-field {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list-item-flag {
+    display: flex;
+  }
+
+  &__popper-disable-portal {
+    position: relative;
+  }
+
+  &__icon-selected {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-left: -2px;
+  }
+
+  &__color {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-top: 2px;
+  }
+
+  &__text {
+    flex-grow: 1;
+  }
+
+  &__close {
+    opacity: 0.6;
+    width: 18;
+    height: 18;
+  }
+
+  &__worldwide {
+    width: 24px;
+    padding: 0 2px;
+  }
+}
+
+@media (max-width: 450px) {
+  .c-country-selector {
+    &__input {
+      padding: 0 5px;
+    }
+
+    &__popper {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      transform: none;
+      bottom: 0px;
+      margin: auto;
+      height: fit-content;
+    }
+
+    &__backdrop {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
+}

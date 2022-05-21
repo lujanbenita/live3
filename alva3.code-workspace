@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "i18n-ally.localesPaths": ["locales", "public/locales"],
+    "i18n-ally.keystyle": "nested",
+    "cSpell.words": [
+      "keylist",
+      "progressbar"
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "rvest.vs-code-prettier-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>41C544A3-12BD-457D-A387-8A0D556821BF</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.296907 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M6.05694216,2.5 L2.67508594,-1.34087861 C2.44163802,-1.60602434 2.44163802,-2.03599498 2.67508594,-2.3011407 C2.90853385,-2.56628643 3.28710208,-2.56628643 3.52054999,-2.3011407 L7.32491406,2.01995383 C7.55836198,2.28509956 7.55836198,2.71507019 7.32491406,2.98021592 L3.52054999,7.3011407 C3.28710208,7.56628643 2.90853385,7.56628643 2.67508594,7.3011407 C2.44163802,7.03599498 2.44163802,6.60602434 2.67508594,6.34087861 L6.05694216,2.5 Z" id="path-2"></path>
+    </defs>
+    <g id="RI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(20) rotate(90)">
+        <g id="UI_NAV_op3_RI_100_dashboard(2)" transform="translate(-1395.000000, -191.000000)">
+            <g id="ATOMS/ICONS/dropdown" transform="translate(1274.000000, 181.000000)" filter="url(#filter-1)">
+                <g transform="translate(121.000000, 10.000000)">
+                    <g id="Group" transform="translate(5.000000, 7.500000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Shape" fill-rule="nonzero" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></g>
+                        <g id="ATOMS/COLORS/white" mask="url(#mask-3)" fill="#FFFFFF">
+                            <g transform="translate(-5.000000, -7.500000)" id="Rectangle-12">
+                                <rect x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "tone": "Negative",
+      "tagName": "Nintendo",
+      "articleCount": 3483,
+      "tonePercent": 13.801711840228245
+    },
+    {
+      "tone": "Neutral",
+      "tagName": "Nintendo",
+      "articleCount": 16107,
+      "tonePercent": 63.825487398953875
+    },
+    {
+      "tone": "Positive",
+      "tagName": "Nintendo",
+      "articleCount": 5646,
+      "tonePercent": 22.372800760817878
+    }
+  ]
+}

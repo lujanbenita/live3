@@ -1,0 +1,25 @@
+{
+  "total": 2,
+  "results": [
+    {
+      "alertId": 690,
+      "alertName": "Samsun + nintendo test alert",
+      "alertType": "Daily",
+      "alertEnabled": true,
+      "alertSubject": "samsung + nintendo",
+      "createDateTime": "2021-06-16 10:35:47",
+      "alertReceiversCount": 2,
+      "alertReceivers": ["ll.pitarch@proun.es", "d.fernandez@proun.es"]
+    },
+    {
+      "alertId": 699,
+      "alertName": "Neptune test alert",
+      "alertType": "Daily",
+      "alertEnabled": true,
+      "alertSubject": "test",
+      "createDateTime": "2021-06-23 14:14:59",
+      "alertReceiversCount": 1,
+      "alertReceivers": ["test@test.com"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.c-tag-taxonomy-search {
+&__label {
+    font-family: $font-museo-sans;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7f9db6;
+    margin-bottom: 5px;
+    }
+  &__input {
+    height: 50px;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #bdc3d5;
+    background-color: #fff;
+    font-size: 12px;
+    color: #3a4557;
+    font-weight: 600;
+    font-family: $font-museo-slab;
+    &::placeholder {
+      color: #a5b0bb;
+      font-style: italic;
+      font-weight: 600;
+    }
+    &:focus,
+    &:active {
+      outline: none;
+    }
+  }
+}

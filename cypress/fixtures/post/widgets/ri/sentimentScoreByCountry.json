@@ -1,0 +1,1242 @@
+[
+  {
+    "sentimentScore": 0,
+    "countryCode": "AD",
+    "countryName": "Andorra"
+  },
+  {
+    "sentimentScore": -3.75,
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AF",
+    "countryName": "Afghanistan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AG",
+    "countryName": "Antigua and Barbuda"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AI",
+    "countryName": "Anguilla"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AL",
+    "countryName": "Albania"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AM",
+    "countryName": "Armenia"
+  },
+  {
+    "sentimentScore": -11.24,
+    "countryCode": "AN",
+    "countryName": "Netherlands Antilles"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AO",
+    "countryName": "Angola"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AQ",
+    "countryName": "Antarctica"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AR",
+    "countryName": "Argentina"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AS",
+    "countryName": "American Samoa"
+  },
+  {
+    "sentimentScore": 6.24,
+    "countryCode": "AT",
+    "countryName": "Austria"
+  },
+  {
+    "sentimentScore": 1.14,
+    "countryCode": "AU",
+    "countryName": "Australia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AW",
+    "countryName": "Aruba"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AX",
+    "countryName": "Åland Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "AZ",
+    "countryName": "Azerbaijan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BA",
+    "countryName": "Bosnia and Herzegovina"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BB",
+    "countryName": "Barbados"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BD",
+    "countryName": "Bangladesh"
+  },
+  {
+    "sentimentScore": 5.96,
+    "countryCode": "BE",
+    "countryName": "Belgium"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BF",
+    "countryName": "Burkina Faso"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BG",
+    "countryName": "Bulgaria"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BH",
+    "countryName": "Bahrain"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BI",
+    "countryName": "Burundi"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BJ",
+    "countryName": "Benin"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BL",
+    "countryName": "Saint Barthélemy"
+  },
+  {
+    "sentimentScore": 12.55,
+    "countryCode": "BM",
+    "countryName": "Bermuda"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BN",
+    "countryName": "Brunei"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BO",
+    "countryName": "Bolivia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BQ",
+    "countryName": "Bonaire, Sint Eustatius and Saba"
+  },
+  {
+    "sentimentScore": 0.61,
+    "countryCode": "BR",
+    "countryName": "Brazil"
+  },
+  {
+    "sentimentScore": 1.78,
+    "countryCode": "BS",
+    "countryName": "Bahamas"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BT",
+    "countryName": "Bhutan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BV",
+    "countryName": "Bouvet Island"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BW",
+    "countryName": "Botswana"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BY",
+    "countryName": "Belarus"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "BZ",
+    "countryName": "Belize"
+  },
+  {
+    "sentimentScore": 1.3,
+    "countryCode": "CA",
+    "countryName": "Canada"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CC",
+    "countryName": "Cocos Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CD",
+    "countryName": "The Democratic Republic Of Congo"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CF",
+    "countryName": "Central African Republic"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CG",
+    "countryName": "Congo"
+  },
+  {
+    "sentimentScore": -0.46,
+    "countryCode": "CH",
+    "countryName": "Switzerland"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CI",
+    "countryName": "Côte d'Ivoire"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CK",
+    "countryName": "Cook Islands"
+  },
+  {
+    "sentimentScore": 7.5,
+    "countryCode": "CL",
+    "countryName": "Chile"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CM",
+    "countryName": "Cameroon"
+  },
+  {
+    "sentimentScore": 5.4,
+    "countryCode": "CN",
+    "countryName": "China"
+  },
+  {
+    "sentimentScore": -8.22,
+    "countryCode": "CO",
+    "countryName": "Colombia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CR",
+    "countryName": "Costa Rica"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CU",
+    "countryName": "Cuba"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CV",
+    "countryName": "Cape Verde"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "CW",
+    "countryName": "Curaçao"
+  },
+  {
+    "sentimentScore": 3.3,
+    "countryCode": "CY",
+    "countryName": "Cyprus"
+  },
+  {
+    "sentimentScore": -0.4,
+    "countryCode": "CZ",
+    "countryName": "Czech Republic"
+  },
+  {
+    "sentimentScore": 12.74,
+    "countryCode": "DE",
+    "countryName": "Germany"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "DJ",
+    "countryName": "Djibouti"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "DK",
+    "countryName": "Denmark"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "DM",
+    "countryName": "Dominica"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "DO",
+    "countryName": "Dominican Republic"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "DZ",
+    "countryName": "Algeria"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "EC",
+    "countryName": "Ecuador"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "EE",
+    "countryName": "Estonia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "EG",
+    "countryName": "Egypt"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "EH",
+    "countryName": "Western Sahara"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "ER",
+    "countryName": "Eritrea"
+  },
+  {
+    "sentimentScore": 17.43,
+    "countryCode": "ES",
+    "countryName": "Spain"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "ET",
+    "countryName": "Ethiopia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "FI",
+    "countryName": "Finland"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "FJ",
+    "countryName": "Fiji"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "FK",
+    "countryName": "Falkland Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "FM",
+    "countryName": "Micronesia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "FO",
+    "countryName": "Faroe Islands"
+  },
+  {
+    "sentimentScore": 14.65,
+    "countryCode": "FR",
+    "countryName": "France"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GA",
+    "countryName": "Gabon"
+  },
+  {
+    "sentimentScore": 11.05,
+    "countryCode": "GB",
+    "countryName": "United Kingdom"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GD",
+    "countryName": "Grenada"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GF",
+    "countryName": "French Guiana"
+  },
+  {
+    "sentimentScore": -3.64,
+    "countryCode": "GG",
+    "countryName": "Guernsey"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GH",
+    "countryName": "Ghana"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GI",
+    "countryName": "Gibraltar"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GL",
+    "countryName": "Greenland"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GM",
+    "countryName": "Gambia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GN",
+    "countryName": "Guinea"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GP",
+    "countryName": "Guadeloupe"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GQ",
+    "countryName": "Equatorial Guinea"
+  },
+  {
+    "sentimentScore": 3.46,
+    "countryCode": "GR",
+    "countryName": "Greece"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GS",
+    "countryName": "South Georgia And The South Sandwich Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GT",
+    "countryName": "Guatemala"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GU",
+    "countryName": "Guam"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GW",
+    "countryName": "Guinea-Bissau"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "GY",
+    "countryName": "Guyana"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "HK",
+    "countryName": "Hong Kong"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "HM",
+    "countryName": "Heard Island And McDonald Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "HN",
+    "countryName": "Honduras"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "HR",
+    "countryName": "Croatia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "HT",
+    "countryName": "Haiti"
+  },
+  {
+    "sentimentScore": -7.06,
+    "countryCode": "HU",
+    "countryName": "Hungary"
+  },
+  {
+    "sentimentScore": -30.27,
+    "countryCode": "ID",
+    "countryName": "Indonesia"
+  },
+  {
+    "sentimentScore": 16.99,
+    "countryCode": "IE",
+    "countryName": "Ireland"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "IL",
+    "countryName": "Israel"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "IM",
+    "countryName": "Isle Of Man"
+  },
+  {
+    "sentimentScore": -4.89,
+    "countryCode": "IN",
+    "countryName": "India"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "IO",
+    "countryName": "British Indian Ocean Territory"
+  },
+  {
+    "sentimentScore": 4.7,
+    "countryCode": "IQ",
+    "countryName": "Iraq"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "IR",
+    "countryName": "Iran"
+  },
+  {
+    "sentimentScore": 19.69,
+    "countryCode": "IS",
+    "countryName": "Iceland"
+  },
+  {
+    "sentimentScore": 24.35,
+    "countryCode": "IT",
+    "countryName": "Italy"
+  },
+  {
+    "sentimentScore": -2.41,
+    "countryCode": "JE",
+    "countryName": "Jersey"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "JM",
+    "countryName": "Jamaica"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "JO",
+    "countryName": "Jordan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "JP",
+    "countryName": "Japan"
+  },
+  {
+    "sentimentScore": -6.2,
+    "countryCode": "KE",
+    "countryName": "Kenya"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KG",
+    "countryName": "Kyrgyzstan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KH",
+    "countryName": "Cambodia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KI",
+    "countryName": "Kiribati"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KM",
+    "countryName": "Comoros"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KN",
+    "countryName": "Saint Kitts And Nevis"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KP",
+    "countryName": "North Korea"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KR",
+    "countryName": "South Korea"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KW",
+    "countryName": "Kuwait"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KY",
+    "countryName": "Cayman Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "KZ",
+    "countryName": "Kazakhstan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LA",
+    "countryName": "Laos"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LB",
+    "countryName": "Lebanon"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LC",
+    "countryName": "Saint Lucia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LI",
+    "countryName": "Liechtenstein"
+  },
+  {
+    "sentimentScore": 10.7,
+    "countryCode": "LK",
+    "countryName": "Sri Lanka"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LR",
+    "countryName": "Liberia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LS",
+    "countryName": "Lesotho"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LT",
+    "countryName": "Lithuania"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LU",
+    "countryName": "Luxembourg"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LV",
+    "countryName": "Latvia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "LY",
+    "countryName": "Libya"
+  },
+  {
+    "sentimentScore": -6.42,
+    "countryCode": "MA",
+    "countryName": "Morocco"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MC",
+    "countryName": "Monaco"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MD",
+    "countryName": "Moldova"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "ME",
+    "countryName": "Montenegro"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MF",
+    "countryName": "Saint Martin"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MG",
+    "countryName": "Madagascar"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MH",
+    "countryName": "Marshall Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MK",
+    "countryName": "Macedonia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "ML",
+    "countryName": "Mali"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MM",
+    "countryName": "Myanmar"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MN",
+    "countryName": "Mongolia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MO",
+    "countryName": "Macao"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MQ",
+    "countryName": "Martinique"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MR",
+    "countryName": "Mauritania"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MS",
+    "countryName": "Montserrat"
+  },
+  {
+    "sentimentScore": 13.12,
+    "countryCode": "MT",
+    "countryName": "Malta"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MU",
+    "countryName": "Mauritius"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MV",
+    "countryName": "Maldives"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MW",
+    "countryName": "Malawi"
+  },
+  {
+    "sentimentScore": 6.01,
+    "countryCode": "MX",
+    "countryName": "Mexico"
+  },
+  {
+    "sentimentScore": 20.84,
+    "countryCode": "MY",
+    "countryName": "Malaysia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "MZ",
+    "countryName": "Mozambique"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "NA",
+    "countryName": "Namibia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "NC",
+    "countryName": "New Caledonia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "NE",
+    "countryName": "Niger"
+  },
+  {
+    "sentimentScore": 7.02,
+    "countryCode": "NG",
+    "countryName": "Nigeria"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "NI",
+    "countryName": "Nicaragua"
+  },
+  {
+    "sentimentScore": 2.34,
+    "countryCode": "NL",
+    "countryName": "Netherlands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "NO",
+    "countryName": "Norway"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "NP",
+    "countryName": "Nepal"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "NR",
+    "countryName": "Nauru"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "NU",
+    "countryName": "Niue"
+  },
+  {
+    "sentimentScore": 17.21,
+    "countryCode": "NZ",
+    "countryName": "New Zealand"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "OM",
+    "countryName": "Oman"
+  },
+  {
+    "sentimentScore": 14.93,
+    "countryCode": "PA",
+    "countryName": "Panama"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PE",
+    "countryName": "Peru"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PF",
+    "countryName": "French Polynesia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PG",
+    "countryName": "Papua New Guinea"
+  },
+  {
+    "sentimentScore": -5.64,
+    "countryCode": "PH",
+    "countryName": "Philippines"
+  },
+  {
+    "sentimentScore": 7.51,
+    "countryCode": "PK",
+    "countryName": "Pakistan"
+  },
+  {
+    "sentimentScore": -6.6,
+    "countryCode": "PL",
+    "countryName": "Poland"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PM",
+    "countryName": "Saint Pierre And Miquelon"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PN",
+    "countryName": "Pitcairn"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PR",
+    "countryName": "Puerto Rico"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PS",
+    "countryName": "Palestine"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PT",
+    "countryName": "Portugal"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PW",
+    "countryName": "Palau"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "PY",
+    "countryName": "Paraguay"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "QA",
+    "countryName": "Qatar"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "RE",
+    "countryName": "Reunion"
+  },
+  {
+    "sentimentScore": -13.5,
+    "countryCode": "RO",
+    "countryName": "Romania"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "RS",
+    "countryName": "Serbia"
+  },
+  {
+    "sentimentScore": -2.85,
+    "countryCode": "RU",
+    "countryName": "Russia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "RW",
+    "countryName": "Rwanda"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SA",
+    "countryName": "Saudi Arabia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SB",
+    "countryName": "Solomon Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SC",
+    "countryName": "Seychelles"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SD",
+    "countryName": "Sudan"
+  },
+  {
+    "sentimentScore": -2.75,
+    "countryCode": "SE",
+    "countryName": "Sweden"
+  },
+  {
+    "sentimentScore": 0.47,
+    "countryCode": "SG",
+    "countryName": "Singapore"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SH",
+    "countryName": "Saint Helena"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SI",
+    "countryName": "Slovenia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SJ",
+    "countryName": "Svalbard And Jan Mayen"
+  },
+  {
+    "sentimentScore": 4.88,
+    "countryCode": "SK",
+    "countryName": "Slovakia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SL",
+    "countryName": "Sierra Leone"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SM",
+    "countryName": "San Marino"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SN",
+    "countryName": "Senegal"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SO",
+    "countryName": "Somalia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SR",
+    "countryName": "Suriname"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SS",
+    "countryName": "South Sudan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "ST",
+    "countryName": "Sao Tome And Principe"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SV",
+    "countryName": "El Salvador"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SX",
+    "countryName": "Sint Maarten (Dutch part)"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SY",
+    "countryName": "Syria"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "SZ",
+    "countryName": "Swaziland"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TC",
+    "countryName": "Turks And Caicos Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TD",
+    "countryName": "Chad"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TF",
+    "countryName": "French Southern Territories"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TG",
+    "countryName": "Togo"
+  },
+  {
+    "sentimentScore": 1.33,
+    "countryCode": "TH",
+    "countryName": "Thailand"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TJ",
+    "countryName": "Tajikistan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TK",
+    "countryName": "Tokelau"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TL",
+    "countryName": "Timor-Leste"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TM",
+    "countryName": "Turkmenistan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TN",
+    "countryName": "Tunisia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TO",
+    "countryName": "Tonga"
+  },
+  {
+    "sentimentScore": 3.94,
+    "countryCode": "TR",
+    "countryName": "Turkey"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TT",
+    "countryName": "Trinidad and Tobago"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TV",
+    "countryName": "Tuvalu"
+  },
+  {
+    "sentimentScore": -6.61,
+    "countryCode": "TW",
+    "countryName": "Taiwan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "TZ",
+    "countryName": "Tanzania"
+  },
+  {
+    "sentimentScore": -4.55,
+    "countryCode": "UA",
+    "countryName": "Ukraine"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "UG",
+    "countryName": "Uganda"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "UM",
+    "countryName": "United States Minor Outlying Islands"
+  },
+  {
+    "sentimentScore": 2.59,
+    "countryCode": "US",
+    "countryName": "United States"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "UY",
+    "countryName": "Uruguay"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "UZ",
+    "countryName": "Uzbekistan"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "VA",
+    "countryName": "Vatican"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "VC",
+    "countryName": "Saint Vincent And The Grenadines"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "VE",
+    "countryName": "Venezuela"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "VG",
+    "countryName": "British Virgin Islands"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "VI",
+    "countryName": "U.S. Virgin Islands"
+  },
+  {
+    "sentimentScore": 5.94,
+    "countryCode": "VN",
+    "countryName": "Vietnam"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "VU",
+    "countryName": "Vanuatu"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "WF",
+    "countryName": "Wallis And Futuna"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "WS",
+    "countryName": "Samoa"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "XK",
+    "countryName": "Republic of Kosovo"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "YE",
+    "countryName": "Yemen"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "YT",
+    "countryName": "Mayotte"
+  },
+  {
+    "sentimentScore": 9.29,
+    "countryCode": "ZA",
+    "countryName": "South Africa"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "ZM",
+    "countryName": "Zambia"
+  },
+  {
+    "sentimentScore": 0,
+    "countryCode": "ZW",
+    "countryName": "Zimbabwe"
+  },
+  {
+    "sentimentScore": 9.17,
+    "countryCode": null,
+    "countryName": "Other / Unknown"
+  }
+]

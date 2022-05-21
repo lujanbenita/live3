@@ -1,0 +1,36 @@
+$keyListItem: ".c-keylist-item";
+
+#{$keyListItem} {
+
+    padding: 10px 0;
+    margin: 0 30px;
+    width: calc(100% - 60px);
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+    border-top: 1px solid #bdc3d5;
+
+    &:first-child {
+        border-top: none;
+    }
+
+    &__letter {
+
+    }
+
+    &__name {
+        color: #3a4557;
+        font-family: $font-museo-slab;
+        font-weight: 600;
+        font-size: 12px;
+        #{$keyListItem}.active & {
+            color: #7f9db6;
+            font-weight: 300;
+        }
+        #{$keyListItem}.current & {
+            color: #f50a5a;    
+            font-weight: 600;        
+        }
+    }
+}

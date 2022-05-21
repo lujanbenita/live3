@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "Blog",
+      "articleCount": 899,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "Broadcast",
+      "articleCount": 135,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "Consumer",
+      "articleCount": 11306,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "Forum",
+      "articleCount": 353,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "General News",
+      "articleCount": 1440,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "National News",
+      "articleCount": 267,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "Regional News",
+      "articleCount": 6967,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "Social Comments",
+      "articleCount": 2831,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "Trade News",
+      "articleCount": 503,
+      "sovPercent": 100.0
+    },
+    {
+      "tagId": 2691,
+      "tagName": "Nintendo",
+      "sourceTypeName": "Wires",
+      "articleCount": 535,
+      "sovPercent": 100.0
+    }
+  ]
+}

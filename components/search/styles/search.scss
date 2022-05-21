@@ -1,0 +1,45 @@
+.c-search {
+  &__controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0 -1px 0;
+    border-bottom: 1px solid $color-text;
+
+    @media (max-width: 901px) {
+      flex-direction: column;
+    }
+  }
+
+  &__filters-container--hidden {
+    overflow: hidden;
+    height: 0px;
+  }
+
+  &__extra-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__extra-filter {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    height: 54px;
+  }
+
+  &__filters-container--visible {
+    //overflow: hidden; it´s commented for dropdown options visible work 
+    height: max-content;
+  }
+
+  @media (max-width: 600px) {
+    &__tabs-bar {
+      max-width: 100px !important;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="33" viewBox="0 0 32 33">
+    <defs>
+        <filter id="k9gdm6k6wa">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.087003 0 0 0 0 0.163641 0 0 0 0 0.226044 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="ufx8lsu89b" d="M16 8c2.21 0 4 1.79 4 4v2c0 1.129-.468 2.149-1.22 2.876 3.048.476 5.22 1.71 5.22 3.145v1.312c0 1.105-.895 2-2 2H10c-1.105 0-2-.895-2-2v-1.317c0-1.435 2.172-2.666 5.22-3.14C12.468 16.148 12 15.128 12 14v-2c0-2.21 1.79-4 4-4zm0 10c-1.933 0-3.807.32-5.141.88-1.142.479-1.526.98-1.526 1.136v1.317c0 .368.3.667.667.667h12c.368 0 .667-.299.667-.667v-1.312c0-.156-.385-.659-1.527-1.139C19.806 18.322 17.932 18 16 18zm0-8.667c-1.473 0-2.667 1.194-2.667 2.667v2c0 1.473 1.194 2.667 2.667 2.667 1.473 0 2.667-1.194 2.667-2.667v-2c0-1.473-1.194-2.667-2.667-2.667z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g filter="url(#k9gdm6k6wa)" transform="translate(-907 -424) translate(600 198) translate(49 205)">
+                    <g transform="translate(258 21)">
+                        <mask id="buqcl6a82c" fill="#fff">
+                            <use xlink:href="#ufx8lsu89b"/>
+                        </mask>
+                        <use fill="#FFF" fill-rule="nonzero" xlink:href="#ufx8lsu89b"/>
+                        <g fill="#000" mask="url(#buqcl6a82c)">
+                            <path d="M0 0H32V32H0z"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

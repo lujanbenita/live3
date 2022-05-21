@@ -1,0 +1,222 @@
+@keyframes blinking {
+  from {
+    box-shadow: 0 0 0 2px rgba(var(--alva-primary-rgb), 0.3);
+  }
+  to {
+    box-shadow: 0 0 0 8px rgba(var(--alva-primary-rgb), 0.5);
+  }
+}
+
+.c-modal {
+  width: calc(100% - 6%);
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  overflow: initial;
+  box-shadow: 2px 2px 92px 0 rgba(0, 0, 0, 0.61);
+
+  &.info {
+    overflow: initial;
+  }
+
+  &__container {
+    background-color: var(--alva-white);
+    display: grid;
+    border-radius: 3px;
+    grid-template:
+      'header' auto
+      'content' auto
+      'footer' auto
+      / auto;
+  }
+
+  &__header {
+    background-color: var(--alva-ash);
+    padding: 0.937rem 1.875em;
+    grid-area: header;
+  }
+
+  &__header[data-color='sky'] {
+    background-color: var(--alva-sky);
+  }
+
+  &__content {
+    grid-area: content;
+    max-height: 75vh;
+    overflow: hidden;
+  }
+
+  &__container > &__content:first-child {
+    grid-area: header/header/content;
+  }
+
+  &__footer {
+    grid-area: footer;
+  }
+
+  &__title {
+    font: 500 1.25rem/1.2 $font-museo-slab;
+    font-family: $font-museo-slab;
+    color: var(--alva-white);
+    margin: 0;
+  }
+
+  &__loading {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+  }
+
+  &__backdrop {
+    background-color: rgba(0, 0, 0, 0.72) !important;
+  }
+}
+
+.c-modal-advertence {
+  padding: 30px 30px 30px 72px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url($basePath + '/img/icons/alert.svg');
+    background-size: cover;
+    top: 30px;
+    left: 15px;
+    margin: auto;
+  }
+
+  &__message {
+    font-family: $font-museo-sans;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: 1.56;
+    color: #5a646f;
+  }
+
+  &__accept-button {
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: $color-primary;
+    position: relative;
+    padding: 10px 20px 10px 40px;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: 28px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background: url($basePath + '/img/icons/check.svg');
+      background-size: cover;
+      top: 0;
+      bottom: 0;
+      left: 3px;
+      margin: auto;
+    }
+  }
+
+  &__reject-button {
+    @extend .c-modal-advertence__accept-button;
+    background-color: $color-grey;
+    margin-left: 0;
+
+    &::before {
+      background: url($basePath + '/img/icons/arrow-left.svg');
+      background-size: cover;
+    }
+  }
+}
+
+.c-modal-info {
+  position: relative;
+  padding: 30px 30px 30px 30px;
+
+  &__message {
+    font-family: $font-museo-sans;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: 1.56;
+    color: #5a646f;
+  }
+
+  &__button-container {
+    text-align: right;
+  }
+
+  &__close-icon {
+    top: -28px;
+    right: -28px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background: url($basePath + '/img/icons/close-modal.svg');
+      background-size: cover;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      cursor: pointer;
+    }
+  }
+
+  &__accept-button {
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: $color-primary;
+    position: relative;
+    padding: 10px 20px 10px 40px;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: 28px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background: url($basePath + '/img/icons/check.svg');
+      background-size: cover;
+      top: 0;
+      bottom: 0;
+      left: 3px;
+      margin: auto;
+    }
+  }
+}
+
+.c-modal-card {
+  &__body {
+    padding: 30px;
+  }
+
+  &__footer {
+    display: flex;
+    padding: 0 30px 60px 30px;
+  }
+}

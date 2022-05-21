@@ -1,0 +1,789 @@
+{
+    "total": 98,
+    "results": [
+        {
+            "tagid": 4277,
+            "tagname": "ABPI Membership",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3331,
+            "tagname": "AGMs",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4505,
+            "tagname": "AIFMD",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4452,
+            "tagname": "AIG Individual Life",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5332,
+            "tagname": "AIG Innovation",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3730,
+            "tagname": "AIG:Employee Benefits",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3903,
+            "tagname": "AXA Annuities",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5199,
+            "tagname": "AXA Innovation",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5295,
+            "tagname": "AbbVie Alert",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5013,
+            "tagname": "Abbott Restricted",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4437,
+            "tagname": "Academic Partnership",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4354,
+            "tagname": "Access to Medicine",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3408,
+            "tagname": "Access to Nutrition Index",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4349,
+            "tagname": "Acid Attack",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4938,
+            "tagname": "Acquired Haemophilia",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4101,
+            "tagname": "Acquisitions",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3915,
+            "tagname": "Acrylamide",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4011,
+            "tagname": "Activism",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4859,
+            "tagname": "Acute Convulsive Seizures",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4743,
+            "tagname": "Acute Lymphatic Leukaemia",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4811,
+            "tagname": "Acute Neuromyelitis Optica",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4460,
+            "tagname": "Ad: Find Your Flow",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4956,
+            "tagname": "Ad: Home Nations Only",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4183,
+            "tagname": "Ad: Ribenary",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4154,
+            "tagname": "Administration",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5002,
+            "tagname": "Adrenal Insufficiency",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4545,
+            "tagname": "Advertising",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3337,
+            "tagname": "Aggregator",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4564,
+            "tagname": "Air Pollution",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5365,
+            "tagname": "Airline Industry",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4792,
+            "tagname": "Airlines Emergencies",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4129,
+            "tagname": "Airlines Punctuality",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4763,
+            "tagname": "Airlines: Comms Execs",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4001,
+            "tagname": "Airport Commission",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4145,
+            "tagname": "Airport Duty",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3891,
+            "tagname": "Airport Security",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4833,
+            "tagname": "Alagille Syndrome",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3954,
+            "tagname": "Alcohol Abuse",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3852,
+            "tagname": "Alcohol Consumption",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4765,
+            "tagname": "Alcohol Guidelines",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3780,
+            "tagname": "Alcohol Pricing",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4187,
+            "tagname": "Ambulance Crash",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5341,
+            "tagname": "Amey:Apprentice",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4015,
+            "tagname": "Amey:Brexit",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4447,
+            "tagname": "Amey:Consulting",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5361,
+            "tagname": "Amey:Diversity & Inclusion",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4891,
+            "tagname": "Amey:Mental Health",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5544,
+            "tagname": "Amey:Social Value",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4237,
+            "tagname": "Amey:Sustainability",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4977,
+            "tagname": "Analyst Rating",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3826,
+            "tagname": "Andreessen Horowitz Innovation",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4651,
+            "tagname": "Animal Rights",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4852,
+            "tagname": "Animal Testing",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4768,
+            "tagname": "Annuities",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5006,
+            "tagname": "Annuity Pricing",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5022,
+            "tagname": "Anti-Corruption Law (Pharma)",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5181,
+            "tagname": "Antibiotic Resistance",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4535,
+            "tagname": "Appleby Breach",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4957,
+            "tagname": "Apprentices",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4214,
+            "tagname": "Arable Crop Reg",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4638,
+            "tagname": "Artisanal Mining",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4670,
+            "tagname": "Assets",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3376,
+            "tagname": "AstraZeneca at ESC",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5276,
+            "tagname": "Attention Deficit Disorder",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3625,
+            "tagname": "Audit",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4916,
+            "tagname": "Audit Reform",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4051,
+            "tagname": "Auto Industry News",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4023,
+            "tagname": "Automation",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4171,
+            "tagname": "Autonomous Vehicle",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4857,
+            "tagname": "Autosomal Dominant Hypocalcemia",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5192,
+            "tagname": "Autosomal Dominant Retinitis Pigmentos",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5137,
+            "tagname": "Aviation Emission",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 5204,
+            "tagname": "Aviation Industry News",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4334,
+            "tagname": "Aviva Care",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4209,
+            "tagname": "Aviva Complexity",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3583,
+            "tagname": "Aviva Legacy",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3235,
+            "tagname": "Aviva Rest",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4017,
+            "tagname": "Aviva:Employee Benefits",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4396,
+            "tagname": "Award and Ranking",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3971,
+            "tagname": "Axial SpA",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4172,
+            "tagname": "Azoxystrobin",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 7301,
+            "tagname": "AZ Mask Donation",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 7305,
+            "tagname": "Awareness",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 7304,
+            "tagname": "Artificial Intelligence",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3203,
+            "tagname": "a4e International Op",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3684,
+            "tagname": "a4e Managed Detention",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4308,
+            "tagname": "activistinvest",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 6913,
+            "tagname": "Aging",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 7166,
+            "tagname": "Age-Related Macular Degeneration",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4160,
+            "tagname": "Amey:Highways",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4313,
+            "tagname": "Amey:Other",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 7300,
+            "tagname": "Amey:Rail",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4423,
+            "tagname": "Amey:Facilities Management",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3770,
+            "tagname": "Amey:FMDJ",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3760,
+            "tagname": "Amey:Utilities",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4565,
+            "tagname": "Amey:Waste Collection",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 4422,
+            "tagname": "Amey:Environmental Services",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        },
+        {
+            "tagid": 3812,
+            "tagname": "Amey:Waste Treatment",
+            "tagtypename": "Topic",
+            "clientId": null,
+            "themeGroup": null,
+            "priority": null
+        }
+    ]
+}

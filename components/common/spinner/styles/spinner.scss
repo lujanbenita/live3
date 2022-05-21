@@ -1,0 +1,101 @@
+.dot-flashing {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+  animation: dot-flashing 0.4s infinite linear alternate;
+  animation-delay: 0.2s;
+  margin: 0 auto;
+
+  &::before,
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  }
+
+  &::before {
+    left: -14px;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    animation: dot-flashing 1s infinite alternate;
+    animation-delay: 0s;
+  }
+
+  &::after {
+    left: 14px;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    animation: dot-flashing 1s infinite alternate;
+    animation-delay: 1s;
+  }
+
+  &--red {
+    background-color: $color-primary;
+    color: $color-primary;
+    margin: 20px auto;
+    animation: dot-flashing 0.2s infinite linear alternate;
+    animation-delay: 0.1s;
+
+    &::before {
+      background-color: $color-primary;
+      color: $color-primary;
+      animation: dot-flashing 0.1s infinite alternate;
+      animation-delay: 0s;
+    }
+
+    &::after {
+      background-color: $color-primary;
+      color: $color-primary;
+      animation: dot-flashing 0.1s infinite alternate;
+      animation-delay: 0s;
+    }
+  }
+}
+
+@keyframes dot-flashing {
+  0% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.c-dual-ring {
+  margin: 10px auto;
+  margin-bottom: 20px;
+  display: block;
+  width: 35px;
+  height: 15px;
+}
+.c-dual-ring:after {
+  content: ' ';
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 4px solid $color-primary;
+  border-color: $color-primary transparent $color-primary transparent;
+  animation: dual-ring 1.2s linear infinite;
+}
+
+@keyframes dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

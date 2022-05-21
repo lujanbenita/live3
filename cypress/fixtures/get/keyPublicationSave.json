@@ -1,0 +1,16 @@
+{
+  "filterId": 832,
+  "filterName": "Music Publications ",
+  "filterParameterCount": 6,
+  "lastUpdateAt": "2021-10-15T12:09:18.152111",
+  "filterParameters": [
+    {
+      "filterParameterId": 1204361,
+      "filterParameterValue": "Webrazzi"
+    },
+    {
+      "filterParameterId": 1204347,
+      "filterParameterValue": "Radu Manolescu (radumanolescu1.wordpress.com)"
+    }
+  ]
+}

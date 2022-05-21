@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2020-03-31",
+    "tagId": 2903,
+    "name": "Apple",
+    "reputationScore": -4.2
+  },
+  {
+    "date": "2020-06-30",
+    "tagId": 2903,
+    "name": "Apple",
+    "reputationScore": -3.2
+  },
+  {
+    "date": "2020-09-30",
+    "tagId": 2903,
+    "name": "Apple",
+    "reputationScore": 5.7
+  },
+  {
+    "date": "2020-12-31",
+    "tagId": 2903,
+    "name": "Apple",
+    "reputationScore": 8.7
+  },
+  {
+    "date": "2020-03-31",
+    "tagId": 3323,
+    "name": "Samsung",
+    "reputationScore": 6.2
+  },
+  {
+    "date": "2020-06-30",
+    "tagId": 3323,
+    "name": "Samsung",
+    "reputationScore": 13.2
+  },
+  {
+    "date": "2020-09-30",
+    "tagId": 3323,
+    "name": "Samsung",
+    "reputationScore": -5.7
+  },
+  {
+    "date": "2020-12-31",
+    "tagId": 3323,
+    "name": "Samsung",
+    "reputationScore": -3.7
+  }
+]

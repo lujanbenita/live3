@@ -1,0 +1,75 @@
+.c-toast {
+  display: flex;
+  width: 100%;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__success {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+
+    div {
+      min-width: 30px !important;
+    }
+  }
+
+  &__message {
+    margin-left: 10px;
+    font-family: $font-museo-sans;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #bdc3d5;
+  }
+
+  &__action {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: right;
+    color: $color-green;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    padding: 0;
+
+    &:hover {
+      color: $color-green;
+    }
+  }
+}
+
+.Toastify {
+  &__toast-container {
+    width: fit-content;
+    max-width: 400px;
+  }
+
+  &__toast {
+    opacity: 0.9 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.31) !important;
+    background-color: #2b2b2b !important;
+    padding: 15px 18px !important;
+    min-height: fit-content !important;
+  }
+
+  &__toast-body {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "i18next.i18nPaths": "./locales",
+  "i18n-ally.localesPaths": ["locales", "public/locales"],
+  "i18n-ally.keystyle": "nested",
+  "cSpell.words": ["isolanguagecode", "isolanguagename", "scrollable"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "compile-hero.disable-compile-files-on-did-save-code": false
+}

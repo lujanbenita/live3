@@ -1,0 +1,14 @@
+.c-card-daily-line {
+    width: 100%;
+    display: block;
+    height: 300px;
+
+    .highcharts-grid-line {
+        display: none;
+    }
+
+    .highcharts-plot-line-label {
+        margin-top: 6px !important;               
+        font-family: $font-museo-sans;
+    }
+}

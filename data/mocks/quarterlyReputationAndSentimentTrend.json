@@ -1,0 +1,152 @@
+{
+  "reputation": -100.00,
+  "reputationSentimentTrend": [
+      {
+          "date": 1633820400000,
+          "name": "Apple",
+          "reputation": 0.58,
+          "sentimentTrend": 6.35,
+          "tagId": 2903
+      },
+      {
+          "date": 1633906800000,
+          "name": "Apple",
+          "reputation": 0.80,
+          "sentimentTrend": 8.29,
+          "tagId": 2903
+      },
+      {
+          "date": 1633993200000,
+          "name": "Apple",
+          "reputation": -11.06,
+          "sentimentTrend": 10.53,
+          "tagId": 2903
+      },
+      {
+          "date": 1634079600000,
+          "name": "Apple",
+          "reputation": 0.95,
+          "sentimentTrend": 8.89,
+          "tagId": 2903
+      },
+      {
+          "date": 1634166000000,
+          "name": "Apple",
+          "reputation": 1.05,
+          "sentimentTrend": 9.45,
+          "tagId": 2903
+      },
+      {
+          "date": 1634252400000,
+          "name": "Apple",
+          "reputation": 0.95,
+          "sentimentTrend": 7.86,
+          "tagId": 2903
+      },
+      {
+          "date": 1634338800000,
+          "name": "Apple",
+          "reputation": 0.92,
+          "sentimentTrend": 7.16,
+          "tagId": 2903
+      },
+      {
+          "date": 1634425200000,
+          "name": "Apple",
+          "reputation": 0.70,
+          "sentimentTrend": 4.27,
+          "tagId": 2903
+      },
+      {
+          "date": 1634511600000,
+          "name": "Apple",
+          "reputation": 1.01,
+          "sentimentTrend": 7.50,
+          "tagId": 2903
+      },
+      {
+          "date": 1634598000000,
+          "name": "Apple",
+          "reputation": 1.33,
+          "sentimentTrend": 10.41,
+          "tagId": 2903
+      },
+      {
+          "date": 1634684400000,
+          "name": "Apple",
+          "reputation": 1.77,
+          "sentimentTrend": 14.23,
+          "tagId": 2903
+      },
+      {
+          "date": 1634770800000,
+          "name": "Apple",
+          "reputation": 1.89,
+          "sentimentTrend": 14.67,
+          "tagId": 2903
+      },
+      {
+          "date": 1634857200000,
+          "name": "Apple",
+          "reputation": 2.02,
+          "sentimentTrend": 15.22,
+          "tagId": 2903
+      },
+      {
+          "date": 1634943600000,
+          "name": "Apple",
+          "reputation": -2.09,
+          "sentimentTrend": -15.12,
+          "tagId": 2903
+      },
+      {
+          "date": 1635030000000,
+          "name": "Apple",
+          "reputation": 2.24,
+          "sentimentTrend": 15.79,
+          "tagId": 2903
+      },
+      {
+          "date": 1635116400000,
+          "name": "Apple",
+          "reputation": 2.46,
+          "sentimentTrend": 17.13,
+          "tagId": 2903
+      },
+      {
+          "date": 1635202800000,
+          "name": "Apple",
+          "reputation": 2.51,
+          "sentimentTrend": 16.73,
+          "tagId": 2903
+      },
+      {
+          "date": 1635289200000,
+          "name": "Apple",
+          "reputation": 2.90,
+          "sentimentTrend": 19.45,
+          "tagId": 2903
+      },
+      {
+          "date": 1635375600000,
+          "name": "Apple",
+          "reputation": 2.85,
+          "sentimentTrend": 18.12,
+          "tagId": 2903
+      },
+      {
+          "date": 1635462000000,
+          "name": "Apple",
+          "reputation": -2.51,
+          "sentimentTrend": -13.93,
+          "tagId": 2903
+      }
+  ],
+  "forecastResult": {
+      "forecast": 30.0,
+      "forecastPlusErrorBand1": 35.0,
+      "forecastPlusErrorBand2": 40.0,
+      "forecastMinusErrorBand1": 25.0,
+      "forecastMinusErrorBand2": 20.0
+  }
+}

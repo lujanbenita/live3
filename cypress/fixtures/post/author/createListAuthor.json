@@ -1,0 +1,17 @@
+{
+  "statusMessage": "Filter added successfully",
+  "statusCode": "201",
+  "description": "",
+  "data": {
+    "filterId": 908,
+    "filterName": "cypress testing",
+    "filterParameterCount": 1,
+    "lastUpdateAt": "2021-11-23T10:40:02.985710",
+    "filterParameters": [
+      {
+        "filterParameterId": 415841,
+        "filterParameterValue": "Alexandru Manole"
+      }
+    ]
+  }
+}

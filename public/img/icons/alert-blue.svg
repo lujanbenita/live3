@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ATOMS/ICONS/alert</title>
+    <defs>
+        <path d="M15.8677308,6 C14.0411055,6 11.3016106,7.99535857 11.3016106,11.647023 C11.3016106,15.2895568 9.82199978,16.9741678 8.56182031,19.1764885 C7.31050078,21.3785049 8.38816539,22 9.47498528,22 L23.1739365,22 L23.1739365,21.8679095 C23.3289856,21.9528248 23.4480042,22 23.520951,22 C24.6077709,22 25.6945908,21.3785049 24.434116,19.1764885 C23.1830918,16.9741678 21.6946211,15.2895568 21.6946211,11.647023 C21.6946211,7.99535857 18.9548308,6 17.1282056,6 L15.8677308,6 Z M15,23.4999461 C15,24.8798103 15.8959317,26 16.9998706,26 C18.1038096,26 19,24.8798103 19,23.4999461 C19,23.3301714 18.9839596,23.1600733 18.9598991,23 L15.0401009,23 C15.0157816,23.1600733 15,23.329848 15,23.4999461 Z" id="path-1"></path>
+    </defs>
+    <g id="ATOMS/ICONS/alert" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#9B9B9B" xlink:href="#path-1"></use>
+        <g id="ATOMS/COLORS/corporativo_4-Copy" mask="url(#mask-2)" fill="#5A646F">
+            <g transform="translate(-1.000000, 1.000000)" id="Rectangle-12">
+                <rect x="0" y="0" width="76" height="76"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "alertId": 9999,
+  "alertName": "testing gdfgd",
+  "alertType": "P",
+  "alertEnabled": "Y",
+  "alertSubject": "test@test.com",
+  "alertDeliveryTime": "00:15",
+  "distributionListId": null,
+  "distributionList": null,
+  "lastAlertTime": "2021-11-25 09:03:00",
+  "minAudienceRecallScore": "0.0",
+  "minHitStrength": "0.0",
+  "emails": [
+    "test@test.com"
+  ],
+  "workspaces": [
+    {
+      "workspaceName": "cypress testing x",
+      "workspaceId": 999,
+      "sectionOrder": "1"
+    }
+  ]
+}

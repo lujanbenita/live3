@@ -1,0 +1,84 @@
+.c-alerts {
+  &__title {
+    font-family: $font-museo-slab;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  &__table-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__table-icon {
+    width: 25px;
+    padding: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__type {
+    &--daily {
+      padding-left: 30px;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        background: url($basePath + '/img/icons/calendar.svg');
+        background-size: cover;
+        top: 0;
+        bottom: 0;
+        left: -5px;
+        margin: auto;
+      }
+    }
+
+    &--pulse {
+      @extend .c-alerts__type--daily;
+
+      &::before {
+        background: url($basePath + '/img/icons/time.svg');
+        background-size: cover;
+      }
+    }
+
+    &--realtime {
+      @extend .c-alerts__type--daily;
+
+      &::before {
+        background: url($basePath + '/img/icons/realtime.svg');
+        background-size: cover;
+      }
+    }
+  }
+
+  &__receivers {
+    @extend .c-alerts__type--daily;
+
+    &::before {
+      background: url($basePath + '/img/icons/user-blue.svg');
+      background-size: cover;
+    }
+  }
+
+  &__receivers-tooltips {
+    padding: 4px 10px !important;
+
+    &-item {
+      height: 26px;
+      display: flex;
+      align-items: center;
+      color: #575757;
+      font-Family: "Museo Sans";
+      font-Weight: 500;
+      font-size: 14px;
+    }
+  }
+}

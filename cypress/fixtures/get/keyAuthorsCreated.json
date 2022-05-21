@@ -1,0 +1,110 @@
+{
+  "filters": [
+    {
+      "filterId": 856,
+      "filterName": "New created key authors list",
+      "filterParameterCount": 1,
+      "lastUpdateAt": "2021-10-21T07:42:18.143454",
+      "filterParameters": null
+    },
+    {
+      "filterId": 890,
+      "filterName": "cypress testing",
+      "filterParameterCount": 1,
+      "lastUpdateAt": "2021-10-28T07:31:34.980362",
+      "filterParameters": null
+    },
+    {
+      "filterId": 741,
+      "filterName": "Apple Authors",
+      "filterParameterCount": 8,
+      "lastUpdateAt": "2021-10-06T14:08:53.469821",
+      "filterParameters": null
+    },
+    {
+      "filterId": 835,
+      "filterName": "test david",
+      "filterParameterCount": 1,
+      "lastUpdateAt": "2021-06-30T08:33:02.779084",
+      "filterParameters": null
+    },
+    {
+      "filterId": 819,
+      "filterName": "Bitcoin Authors",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-06-25T12:40:56.246936",
+      "filterParameters": null
+    },
+    {
+      "filterId": 814,
+      "filterName": "Banking Authors ",
+      "filterParameterCount": 1,
+      "lastUpdateAt": "2021-06-25T12:33:11.189167",
+      "filterParameters": null
+    },
+    {
+      "filterId": 811,
+      "filterName": "Novelist ",
+      "filterParameterCount": 2,
+      "lastUpdateAt": "2021-06-24T17:13:23.954950",
+      "filterParameters": null
+    },
+    {
+      "filterId": 805,
+      "filterName": "Proun Test 20",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-06-23T11:16:07.978310",
+      "filterParameters": null
+    },
+    {
+      "filterId": 797,
+      "filterName": "Proun Test 12",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-06-23T11:15:37.484154",
+      "filterParameters": null
+    },
+    {
+      "filterId": 795,
+      "filterName": "Proun Test 10",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-06-23T11:15:28.020043",
+      "filterParameters": null
+    },
+    {
+      "filterId": 793,
+      "filterName": "Proun Test 8",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-06-23T11:15:18.594562",
+      "filterParameters": null
+    },
+    {
+      "filterId": 790,
+      "filterName": "Proun Test 5",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-06-23T11:15:08.242623",
+      "filterParameters": null
+    },
+    {
+      "filterId": 788,
+      "filterName": "Proun Test 3",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-06-23T11:15:02.036822",
+      "filterParameters": null
+    },
+    {
+      "filterId": 786,
+      "filterName": "Proun Test 1",
+      "filterParameterCount": 6,
+      "lastUpdateAt": "2021-06-23T11:14:52.866332",
+      "filterParameters": null
+    },
+    {
+      "filterId": 738,
+      "filterName": "Banking Authors ",
+      "filterParameterCount": 3,
+      "lastUpdateAt": "2021-06-17T13:43:07.043972",
+      "filterParameters": null
+    }
+  ],
+  "count": 15
+}
